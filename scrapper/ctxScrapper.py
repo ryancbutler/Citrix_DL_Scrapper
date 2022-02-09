@@ -24,6 +24,7 @@ password = os.environ.get('ctxpass')
 if password is None:
     raise EnvironmentError("Failed because ctxpass is not set.")
 
+
 # Chrome driver https://chromedriver.chromium.org/downloads
 driver = webdriver.Chrome(options=options)
 
@@ -52,32 +53,53 @@ page_source = driver.page_source
 soup = BeautifulSoup(page_source, 'html.parser')
 dls = []
 dls_selector = soup.find_all(
-    "a", {"href": re.compile('^(?=.*downloads\/c)(?!.*\.rss).*')})
-# "a", {"href": re.compile('^(?!.*x\.html)(?=.*downloads\/c)(?!.*\.rss).*')})
+    "a", {"href": re.compile('^(?!.*x\.html)(?=.*downloads\/c)(?!.*\.rss).*')})
+
 for dl in dls_selector:
     dls.append(dl['href'])
 
 f = open('../ctx_dls.csv', 'w', newline='', encoding='utf-8')
 writer = csv.writer(f)
-writer.writerow(['version', 'edition', 'dlnumber', 'url', 'filename', 'type'])
+writer.writerow(['edition', 'product', 'version', 'checksum',
+                'date', 'dlnumber', 'url', 'filename', 'filetype', 'size', 'family'])
 
 ctxDLS = []
 for ctxDL in dls:
     driver.get('https://www.citrix.com' + ctxDL)
     page_source = driver.page_source
     soup = BeautifulSoup(page_source, 'html.parser')
-    dls_selector = soup.find_all("a", {"rel": re.compile('^(?=.*DLID=).*')})
-    for dl in dls_selector:
-        print(dl['rel'])
-        m = re.findall('(?<=DLID=)(.*)(?=&)', dl['rel'][0])
-        exename = (dl['rel'][0].split('/')[-1])
-        version = re.search('((7\.)\d\d)|(\d\d\d\d)',
-                            driver.title)
-        title = (driver.title).replace(", All Editions - Citrix", "")
-        writer.writerow(
-            [version[0], title, m[0], dl['rel'][0], exename, 'cvad'])
-        ctxDLS.append({"version": version[0], "edition": title,
-                      "dlnumber": m[0], "url": dl['rel'][0], "filename": exename, "type": 'cvad'})
+    dl_sections = soup.find_all("div", {"class": "ctx-download-entry"})
+    for dl_section in dl_sections:
+        dl_type = (dl_section.find("span", {"class": "dl-type"})).text
+        if dl_type == "(.htm)":
+            print("HTML DL TYPE FOUND. Skipping")
+        else:
+            dl_product = (dl_section.find("h4")).text
+            dl_url = dl_section.a['rel'][0]
+            dl_size = (dl_section.find("span", {"class": "dl-size"})).text
+            dl_date = (dl_section.find("span", {"class": "ctx-dl-langs"})).text
+            dl_checksum_list = dl_section.find(
+                "ul", {"class": "ctx-checksum-list"})
+
+            if dl_checksum_list is None:
+                dl_checksum = "NONE"
+            else:
+                dl_checksum = (dl_checksum_list.find("li")).text
+
+            filename = (dl_url.split('/')[-1])
+            edition = (driver.title).replace(", All Editions - Citrix", "")
+            dlid = re.findall('(?<=DLID=)(.*)(?=&)', dl_url)[0]
+            version = re.search('((7\.)\d\d)|(\d\d\d\d)',
+                                driver.title)
+            filetype = filename.split('.')[-1]
+
+            print(dl_product)
+            writer.writerow(
+                [edition, dl_product, version[0], dl_checksum, dl_date, dlid, dl_url, filename, filetype, dl_size, 'cvad'])
+
+            ctxDLS.append({"edition": edition, "product": dl_product,
+                           "version": version[0], "checksum": dl_checksum, "date": dl_date, "dlnumber": dlid, "url": dl_url, "filename": filename, "filetype": filetype, "size": dl_size, "family": 'cvad'})
+
 
 with open('../ctx_dls.json', 'w', encoding='utf-8') as f:
     json.dump(ctxDLS, f, ensure_ascii=False, indent=4)

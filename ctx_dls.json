@@ -1,1306 +1,2030 @@
 [
     {
-        "version": "2112",
         "edition": "Citrix Virtual Apps and Desktops 7 2112",
+        "product": "Citrix Virtual Apps and Desktops 7 2112",
+        "version": "2112",
+        "checksum": "SHA-256 - 9543c0d36459024ce2106d06435ca511c546e8e0056895dfe78869758a3e3c99",
+        "date": "Dec 14, 2021",
         "dlnumber": "20115",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=20115&URL=https://downloads.citrix.com/20115/Citrix_Virtual_Apps_and_Desktops_7_2112.iso",
         "filename": "Citrix_Virtual_Apps_and_Desktops_7_2112.iso",
-        "type": "cvad"
+        "filetype": "iso",
+        "size": "2.52 GB",
+        "family": "cvad"
     },
     {
-        "version": "2112",
         "edition": "Citrix Virtual Apps and Desktops 7 2112",
+        "product": "Multi-session OS Virtual Delivery Agent 2112",
+        "version": "2112",
+        "checksum": "SHA-256 - a43b9a082f1de2ac12598cc4da4b411b028eb5091ef5fcf773c104f14a014bcd",
+        "date": "Dec 14, 2021",
         "dlnumber": "20116",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=20116&URL=https://downloads.citrix.com/20116/VDAServerSetup_2112.exe",
         "filename": "VDAServerSetup_2112.exe",
-        "type": "cvad"
+        "filetype": "exe",
+        "size": "533 MB",
+        "family": "cvad"
     },
     {
-        "version": "2112",
         "edition": "Citrix Virtual Apps and Desktops 7 2112",
+        "product": "Single-session OS Virtual Delivery Agent 2112",
+        "version": "2112",
+        "checksum": "SHA-256 - 015ceac3a325cc73d22b7ad6ff00acbf526d46cb621a6a1096b98270d48c04cf",
+        "date": "Dec 14, 2021",
         "dlnumber": "20117",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=20117&URL=https://downloads.citrix.com/20117/VDAWorkstationSetup_2112.exe",
         "filename": "VDAWorkstationSetup_2112.exe",
-        "type": "cvad"
+        "filetype": "exe",
+        "size": "538 MB",
+        "family": "cvad"
     },
     {
-        "version": "2112",
         "edition": "Citrix Virtual Apps and Desktops 7 2112",
+        "product": "Single-session OS Core Services Virtual Delivery Agent 2112",
+        "version": "2112",
+        "checksum": "SHA-256 - 18b959c0aa740d9f5ff38e2cc17e4d9eaf648ed508db1c98c0d32a28f46ce258",
+        "date": "Dec 14, 2021",
         "dlnumber": "20118",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=20118&URL=https://downloads.citrix.com/20118/VDAWorkstationCoreSetup_2112.exe",
         "filename": "VDAWorkstationCoreSetup_2112.exe",
-        "type": "cvad"
+        "filetype": "exe",
+        "size": "250 MB",
+        "family": "cvad"
     },
     {
-        "version": "2112",
         "edition": "Citrix Virtual Apps and Desktops 7 2112",
+        "product": "License Server for Windows - Version 11.17.2.0 Build 37000",
+        "version": "2112",
+        "checksum": "SHA-256 - 3ca4565ce54d97426b3862f3beef120110d60e07bc9030cb5cb130c78a16aa56",
+        "date": "Dec 14, 2021",
         "dlnumber": "9803",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=9803&URL=https://downloads.citrix.com/9803/Citrix_Licensing_11.17.2.0_BUILD_37000.zip",
         "filename": "Citrix_Licensing_11.17.2.0_BUILD_37000.zip",
-        "type": "cvad"
+        "filetype": "zip",
+        "size": "55 MB",
+        "family": "cvad"
     },
     {
-        "version": "2112",
         "edition": "Citrix Virtual Apps and Desktops 7 2112",
+        "product": "Profile Management 2112",
+        "version": "2112",
+        "checksum": "SHA-256 - 53315841c82180d308690be4ac05c4257e96f2c287047e187bc7e8e11734f6a6",
+        "date": "Dec 14, 2021",
         "dlnumber": "19803",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=19803&URL=https://downloads.citrix.com/19803/ProfileMgmt_2112.zip",
         "filename": "ProfileMgmt_2112.zip",
-        "type": "cvad"
+        "filetype": "zip",
+        "size": "13.6 MB",
+        "family": "cvad"
     },
     {
-        "version": "2112",
         "edition": "Citrix Virtual Apps and Desktops 7 2112",
+        "product": "StoreFront 1912 LTSR CU4",
+        "version": "2112",
+        "checksum": "SHA-256 - 37edbcbbfb31b284f0bf88bd54366c24ac60e75758e9df5fc44bb97c789a8d2d",
+        "date": "Nov 3, 2021",
         "dlnumber": "19998",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=19998&URL=https://downloads.citrix.com/19998/CitrixStoreFront-x64.exe",
         "filename": "CitrixStoreFront-x64.exe",
-        "type": "cvad"
+        "filetype": "exe",
+        "size": "48.7 MB",
+        "family": "cvad"
     },
     {
-        "version": "2112",
         "edition": "Citrix Virtual Apps and Desktops 7 2112",
+        "product": "Sources: Session Recording",
+        "version": "2112",
+        "checksum": "SHA-256 - 5e6a0127c127b19af851fd83dc2cb70b1918dc20ef21af84bf66efc02fb52916",
+        "date": "Feb 23, 2017",
         "dlnumber": "12292",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=12292&URL=https://downloads.citrix.com/12292/MMCFormsShim.zip",
         "filename": "MMCFormsShim.zip",
-        "type": "cvad"
+        "filetype": "zip",
+        "size": "18.1 KB",
+        "family": "cvad"
     },
     {
-        "version": "2109",
         "edition": "Citrix Virtual Apps and Desktops 7 2109",
+        "product": "Citrix Virtual Apps and Desktops 7 2109",
+        "version": "2109",
+        "checksum": "SHA-256 - 3038752a98413a5003db56b8cc85299950b87df7d30081b673aef594e34f501b",
+        "date": "Sep 27, 2021",
         "dlnumber": "19799",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=19799&URL=https://downloads.citrix.com/19799/Citrix_Virtual_Apps_and_Desktops_7_2109.iso",
         "filename": "Citrix_Virtual_Apps_and_Desktops_7_2109.iso",
-        "type": "cvad"
+        "filetype": "iso",
+        "size": "2.88 GB",
+        "family": "cvad"
     },
     {
-        "version": "2109",
         "edition": "Citrix Virtual Apps and Desktops 7 2109",
+        "product": "Multi-session OS Virtual Delivery Agent 2109",
+        "version": "2109",
+        "checksum": "SHA-256 - 1aa150b37098db5e1ff606156457644955b1e7589a1e4e61202974ddf15b908f",
+        "date": "Sep 27, 2021",
         "dlnumber": "19800",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=19800&URL=https://downloads.citrix.com/19800/VDAServerSetup_2109.exe",
         "filename": "VDAServerSetup_2109.exe",
-        "type": "cvad"
+        "filetype": "exe",
+        "size": "486 MB",
+        "family": "cvad"
     },
     {
-        "version": "2109",
         "edition": "Citrix Virtual Apps and Desktops 7 2109",
+        "product": "Single-session OS Virtual Delivery Agent 2109",
+        "version": "2109",
+        "checksum": "SHA-256 - 1532c7d222046b2888ab099f5399c44bc99db6681d755262a756b7cb9731aca8",
+        "date": "Sep 27, 2021",
         "dlnumber": "19801",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=19801&URL=https://downloads.citrix.com/19801/VDAWorkstationSetup_2109.exe",
         "filename": "VDAWorkstationSetup_2109.exe",
-        "type": "cvad"
+        "filetype": "exe",
+        "size": "491 MB",
+        "family": "cvad"
     },
     {
-        "version": "2109",
         "edition": "Citrix Virtual Apps and Desktops 7 2109",
+        "product": "Single-session OS Core Services Virtual Delivery Agent 2109",
+        "version": "2109",
+        "checksum": "SHA-256 - c243b29678fe12617c9d4047c9419bbe4f0d8f36b678f556dd59b871463e647d",
+        "date": "Sep 27, 2021",
         "dlnumber": "19802",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=19802&URL=https://downloads.citrix.com/19802/VDAWorkstationCoreSetup_2109.exe",
         "filename": "VDAWorkstationCoreSetup_2109.exe",
-        "type": "cvad"
+        "filetype": "exe",
+        "size": "266 MB",
+        "family": "cvad"
     },
     {
-        "version": "2109",
         "edition": "Citrix Virtual Apps and Desktops 7 2109",
+        "product": "License Server for Windows - Version 11.17.2.0 Build 36000",
+        "version": "2109",
+        "checksum": "SHA-256 - 53562ca0607e49777deb618a85df4af8a71c8d61515d4ae5b9195dc774958104",
+        "date": "Sep 16, 2021",
         "dlnumber": "9803",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=9803&URL=https://downloads.citrix.com/9803/Citrix_Licensing_11.17.2.0_BUILD_36000.zip",
         "filename": "Citrix_Licensing_11.17.2.0_BUILD_36000.zip",
-        "type": "cvad"
+        "filetype": "zip",
+        "size": "53.5 MB",
+        "family": "cvad"
     },
     {
-        "version": "2109",
         "edition": "Citrix Virtual Apps and Desktops 7 2109",
+        "product": "Profile Management 2109",
+        "version": "2109",
+        "checksum": "SHA-256 - 272a6dcc7822458b304a83b5527ce253479006390a036f7bc67f9bdd880b78eb",
+        "date": "Sep 27, 2021",
         "dlnumber": "19803",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=19803&URL=https://downloads.citrix.com/19803/ProfileMgmt_2109.zip",
         "filename": "ProfileMgmt_2109.zip",
-        "type": "cvad"
+        "filetype": "zip",
+        "size": "13.4 MB",
+        "family": "cvad"
     },
     {
-        "version": "2109",
         "edition": "Citrix Virtual Apps and Desktops 7 2109",
+        "product": "StoreFront 1912 LTSR CU3",
+        "version": "2109",
+        "checksum": "SHA-256 - 100346fd79ed3854e81125e87ccece19d5189f95a6b11da61e0f33cf59c4fb46",
+        "date": "May 12, 2021",
         "dlnumber": "19430",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=19430&URL=https://downloads.citrix.com/19430/CitrixStoreFront-x64.exe",
         "filename": "CitrixStoreFront-x64.exe",
-        "type": "cvad"
+        "filetype": "exe",
+        "size": "47.1 MB",
+        "family": "cvad"
     },
     {
-        "version": "2109",
         "edition": "Citrix Virtual Apps and Desktops 7 2109",
+        "product": "Sources: Session Recording",
+        "version": "2109",
+        "checksum": "SHA-256 - 5e6a0127c127b19af851fd83dc2cb70b1918dc20ef21af84bf66efc02fb52916",
+        "date": "Feb 23, 2017",
         "dlnumber": "12292",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=12292&URL=https://downloads.citrix.com/12292/MMCFormsShim.zip",
         "filename": "MMCFormsShim.zip",
-        "type": "cvad"
+        "filetype": "zip",
+        "size": "18.1 KB",
+        "family": "cvad"
     },
     {
-        "version": "2106",
         "edition": "Citrix Virtual Apps and Desktops 7 2106",
+        "product": "Citrix Virtual Apps and Desktops 7 2106",
+        "version": "2106",
+        "checksum": "SHA-256 - ae7a5809a6b67c8f94be6b732cabaf8ee4578815f255c2aa75a5a49841fd3a48",
+        "date": "Jun 16, 2021",
         "dlnumber": "19467",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=19467&URL=https://downloads.citrix.com/19467/Citrix_Virtual_Apps_and_Desktops_7_2106.iso",
         "filename": "Citrix_Virtual_Apps_and_Desktops_7_2106.iso",
-        "type": "cvad"
+        "filetype": "iso",
+        "size": "2.88 GB",
+        "family": "cvad"
     },
     {
-        "version": "2106",
         "edition": "Citrix Virtual Apps and Desktops 7 2106",
+        "product": "Multi-session OS Virtual Delivery Agent 2106",
+        "version": "2106",
+        "checksum": "SHA-256 - 1c74a4e0ebe0c178cc843a3f43360e687b345704c099712b25f4630b6e5bf16f",
+        "date": "Jun 16, 2021",
         "dlnumber": "19468",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=19468&URL=https://downloads.citrix.com/19468/VDAServerSetup_2106.exe",
         "filename": "VDAServerSetup_2106.exe",
-        "type": "cvad"
+        "filetype": "exe",
+        "size": "468 MB",
+        "family": "cvad"
     },
     {
-        "version": "2106",
         "edition": "Citrix Virtual Apps and Desktops 7 2106",
+        "product": "Single-session OS Virtual Delivery Agent 2106",
+        "version": "2106",
+        "checksum": "SHA-256 - fa391ca97ca00d29117b5c291a4cb5ac214a31081cfa1450098ce4824156b56c",
+        "date": "Jun 16, 2021",
         "dlnumber": "19469",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=19469&URL=https://downloads.citrix.com/19469/VDAWorkstationSetup_2106.exe",
         "filename": "VDAWorkstationSetup_2106.exe",
-        "type": "cvad"
+        "filetype": "exe",
+        "size": "472 MB",
+        "family": "cvad"
     },
     {
-        "version": "2106",
         "edition": "Citrix Virtual Apps and Desktops 7 2106",
+        "product": "Single-session OS Core Services Virtual Delivery Agent 2106",
+        "version": "2106",
+        "checksum": "SHA-256 - a3f9bca755d77310a90ebac31ea1ed37917bf60c20ab27c5b3d2cef74eafb610",
+        "date": "Jun 16, 2021",
         "dlnumber": "19470",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=19470&URL=https://downloads.citrix.com/19470/VDAWorkstationCoreSetup_2106.exe",
         "filename": "VDAWorkstationCoreSetup_2106.exe",
-        "type": "cvad"
+        "filetype": "exe",
+        "size": "251 MB",
+        "family": "cvad"
     },
     {
-        "version": "2106",
         "edition": "Citrix Virtual Apps and Desktops 7 2106",
+        "product": "License Server for Windows - Version 11.17.2.0 Build 35000",
+        "version": "2106",
+        "checksum": "SHA-256 - cf0c85fae1d50ba5efaeec7ffc36d89221255dbc1e78a7b8dc9b4b656f0b0d18",
+        "date": "Jun 16, 2021",
         "dlnumber": "9803",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=9803&URL=https://downloads.citrix.com/9803/Citrix_Licensing_11.17.2.0_BUILD_35000.zip",
         "filename": "Citrix_Licensing_11.17.2.0_BUILD_35000.zip",
-        "type": "cvad"
+        "filetype": "zip",
+        "size": "54.4 MB",
+        "family": "cvad"
     },
     {
-        "version": "2106",
         "edition": "Citrix Virtual Apps and Desktops 7 2106",
+        "product": "Profile Management 2106",
+        "version": "2106",
+        "checksum": "SHA-256 - df55cf39c404cb480e8359745c512aa22ac349a80d5bbb6153280656263a7117",
+        "date": "Jun 16, 2021",
         "dlnumber": "19471",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=19471&URL=https://downloads.citrix.com/19471/ProfileMgmt_2106.zip",
         "filename": "ProfileMgmt_2106.zip",
-        "type": "cvad"
+        "filetype": "zip",
+        "size": "12 MB",
+        "family": "cvad"
     },
     {
-        "version": "2106",
         "edition": "Citrix Virtual Apps and Desktops 7 2106",
+        "product": "StoreFront 1912 LTSR CU3",
+        "version": "2106",
+        "checksum": "SHA-256 - 100346fd79ed3854e81125e87ccece19d5189f95a6b11da61e0f33cf59c4fb46",
+        "date": "May 12, 2021",
         "dlnumber": "19430",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=19430&URL=https://downloads.citrix.com/19430/CitrixStoreFront-x64.exe",
         "filename": "CitrixStoreFront-x64.exe",
-        "type": "cvad"
+        "filetype": "exe",
+        "size": "47.1 MB",
+        "family": "cvad"
     },
     {
-        "version": "2106",
         "edition": "Citrix Virtual Apps and Desktops 7 2106",
+        "product": "Sources: Session Recording",
+        "version": "2106",
+        "checksum": "SHA-256 - 5e6a0127c127b19af851fd83dc2cb70b1918dc20ef21af84bf66efc02fb52916",
+        "date": "Feb 23, 2017",
         "dlnumber": "12292",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=12292&URL=https://downloads.citrix.com/12292/MMCFormsShim.zip",
         "filename": "MMCFormsShim.zip",
-        "type": "cvad"
+        "filetype": "zip",
+        "size": "18.1 KB",
+        "family": "cvad"
     },
     {
-        "version": "2103",
         "edition": "Citrix Virtual Apps and Desktops 7 2103",
+        "product": "Citrix Virtual Apps and Desktops 7 2103",
+        "version": "2103",
+        "checksum": "SHA-256 - 7f2f05db4ecd8b691f3b91990e4467ccbbcf41c9879b37af5196ac8c3d3a0341",
+        "date": "Mar 17, 2021",
         "dlnumber": "19143",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=19143&URL=https://downloads.citrix.com/19143/Citrix_Virtual_Apps_and_Desktops_7_2103.iso",
         "filename": "Citrix_Virtual_Apps_and_Desktops_7_2103.iso",
-        "type": "cvad"
+        "filetype": "iso",
+        "size": "3.10 GB",
+        "family": "cvad"
     },
     {
-        "version": "2103",
         "edition": "Citrix Virtual Apps and Desktops 7 2103",
+        "product": "Multi-session OS Virtual Delivery Agent 2103",
+        "version": "2103",
+        "checksum": "SHA-256 - 74b4d0ea5c4fb5e5077b34843210a62ae9320955acd093f9483069cb4ebe13f4",
+        "date": "Mar 17, 2021",
         "dlnumber": "19144",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=19144&URL=https://downloads.citrix.com/19144/VDAServerSetup_2103.exe",
         "filename": "VDAServerSetup_2103.exe",
-        "type": "cvad"
+        "filetype": "exe",
+        "size": "463 MB",
+        "family": "cvad"
     },
     {
-        "version": "2103",
         "edition": "Citrix Virtual Apps and Desktops 7 2103",
+        "product": "Single-session OS Virtual Delivery Agent 2103",
+        "version": "2103",
+        "checksum": "SHA-256 - 2d1f64aa25378ba794543ac16c3a9fd481324745eb89e5b62263c8b57967ca43",
+        "date": "Mar 17, 2021",
         "dlnumber": "19145",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=19145&URL=https://downloads.citrix.com/19145/VDAWorkstationSetup_2103.exe",
         "filename": "VDAWorkstationSetup_2103.exe",
-        "type": "cvad"
+        "filetype": "exe",
+        "size": "468 MB",
+        "family": "cvad"
     },
     {
-        "version": "2103",
         "edition": "Citrix Virtual Apps and Desktops 7 2103",
+        "product": "Single-session OS Core Services Virtual Delivery Agent 2103",
+        "version": "2103",
+        "checksum": "SHA-256 - a538249317a4be7b2abd98b98cfa0785ec00e226ef86e714c279f57d85435dce",
+        "date": "Mar 17, 2021",
         "dlnumber": "19146",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=19146&URL=https://downloads.citrix.com/19146/VDAWorkstationCoreSetup_2103.exe",
         "filename": "VDAWorkstationCoreSetup_2103.exe",
-        "type": "cvad"
+        "filetype": "exe",
+        "size": "251 MB",
+        "family": "cvad"
     },
     {
-        "version": "2103",
         "edition": "Citrix Virtual Apps and Desktops 7 2103",
+        "product": "License Server for Windows - Version 11.16.6.0 Build 34000",
+        "version": "2103",
+        "checksum": "SHA-256 - feafb731b07fb32bf52bf5067b33ea2dac9202378caa7b7ec9d8c87b461ab9f9",
+        "date": "Mar 17, 2021",
         "dlnumber": "9803",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=9803&URL=https://downloads.citrix.com/9803/Citrix_Licensing_11.16.6.0_BUILD_34000.zip",
         "filename": "Citrix_Licensing_11.16.6.0_BUILD_34000.zip",
-        "type": "cvad"
+        "filetype": "zip",
+        "size": "51.8 MB",
+        "family": "cvad"
     },
     {
-        "version": "2103",
         "edition": "Citrix Virtual Apps and Desktops 7 2103",
+        "product": "Profile Management 2103",
+        "version": "2103",
+        "checksum": "SHA-256 - afcbf3aa7ae40e4f34a487e41c4140635c1bbeb73f8d858d29a69f459a5d0620",
+        "date": "Mar 17, 2021",
         "dlnumber": "19147",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=19147&URL=https://downloads.citrix.com/19147/ProfileMgmt_2103.zip",
         "filename": "ProfileMgmt_2103.zip",
-        "type": "cvad"
+        "filetype": "zip",
+        "size": "11.9 MB",
+        "family": "cvad"
     },
     {
-        "version": "2103",
         "edition": "Citrix Virtual Apps and Desktops 7 2103",
+        "product": "StoreFront 1912 LTSR CU2",
+        "version": "2103",
+        "checksum": "SHA-256 - b02d9a2250f44f04662fc5e5f5a303c09f5cfb5042cabfdcbd52a7c0fd5fdafa",
+        "date": "Nov 19, 2020",
         "dlnumber": "18840",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=18840&URL=https://downloads.citrix.com/18840/CitrixStoreFront-x64.exe",
         "filename": "CitrixStoreFront-x64.exe",
-        "type": "cvad"
+        "filetype": "exe",
+        "size": "46.2 MB",
+        "family": "cvad"
     },
     {
-        "version": "2103",
         "edition": "Citrix Virtual Apps and Desktops 7 2103",
+        "product": "Sources: Session Recording",
+        "version": "2103",
+        "checksum": "SHA-256 - 5e6a0127c127b19af851fd83dc2cb70b1918dc20ef21af84bf66efc02fb52916",
+        "date": "Feb 23, 2017",
         "dlnumber": "12292",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=12292&URL=https://downloads.citrix.com/12292/MMCFormsShim.zip",
         "filename": "MMCFormsShim.zip",
-        "type": "cvad"
+        "filetype": "zip",
+        "size": "18.1 KB",
+        "family": "cvad"
     },
     {
-        "version": "2012",
         "edition": "Citrix Virtual Apps and Desktops 7 2012",
+        "product": "Citrix Virtual Apps and Desktops 7 2012",
+        "version": "2012",
+        "checksum": "SHA-256 - 521F5D038A5552DEB0DF82F4243EB5FB72D5D3C4EDDE9239BCE29FA481BC1953",
+        "date": "Dec 14, 2020",
         "dlnumber": "18862",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=18862&URL=https://downloads.citrix.com/18862/Citrix_Virtual_Apps_and_Desktops_7_2012.iso",
         "filename": "Citrix_Virtual_Apps_and_Desktops_7_2012.iso",
-        "type": "cvad"
+        "filetype": "iso",
+        "size": "2.4 GB",
+        "family": "cvad"
     },
     {
-        "version": "2012",
         "edition": "Citrix Virtual Apps and Desktops 7 2012",
+        "product": "Multi-session OS Virtual Delivery Agent 2012",
+        "version": "2012",
+        "checksum": "SHA-256 - bc75449fa9382923767bc9b25f47f0fe16c8601e162b413f28e26532bdee5401",
+        "date": "Dec 14, 2020",
         "dlnumber": "18863",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=18863&URL=https://downloads.citrix.com/18863/VDAServerSetup_2012.exe",
         "filename": "VDAServerSetup_2012.exe",
-        "type": "cvad"
+        "filetype": "exe",
+        "size": "453 MB",
+        "family": "cvad"
     },
     {
-        "version": "2012",
         "edition": "Citrix Virtual Apps and Desktops 7 2012",
+        "product": "Single-session OS Virtual Delivery Agent 2012",
+        "version": "2012",
+        "checksum": "SHA-256 - 2b87abcfb4ed54211ec615e64d84c1239505988b8802386ac256c2b2763ab014",
+        "date": "Dec 14, 2020",
         "dlnumber": "18864",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=18864&URL=https://downloads.citrix.com/18864/VDAWorkstationSetup_2012.exe",
         "filename": "VDAWorkstationSetup_2012.exe",
-        "type": "cvad"
+        "filetype": "exe",
+        "size": "458 MB",
+        "family": "cvad"
     },
     {
-        "version": "2012",
         "edition": "Citrix Virtual Apps and Desktops 7 2012",
+        "product": "Single-session OS Core Services Virtual Delivery Agent 2012",
+        "version": "2012",
+        "checksum": "SHA-256 - bbaf29f68f9882ba7b96d2a83bdf030aaeb242510c523a0a8dfcf9b247a406e0",
+        "date": "Dec 14, 2020",
         "dlnumber": "18865",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=18865&URL=https://downloads.citrix.com/18865/VDAWorkstationCoreSetup_2012.exe",
         "filename": "VDAWorkstationCoreSetup_2012.exe",
-        "type": "cvad"
+        "filetype": "exe",
+        "size": "249 MB",
+        "family": "cvad"
     },
     {
-        "version": "2012",
         "edition": "Citrix Virtual Apps and Desktops 7 2012",
+        "product": "License Server for Windows - Version 11.16.6.0 Build 33000",
+        "version": "2012",
+        "checksum": "SHA-256 - 903A9E2DFCCF9E15AE18E625A327317EA7671669C7D9263AB1CD885755FD06E4",
+        "date": "Dec 14, 2020",
         "dlnumber": "9803",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=9803&URL=https://downloads.citrix.com/9803/Citrix_Licensing_11.16.6.0_BUILD_33000.zip",
         "filename": "Citrix_Licensing_11.16.6.0_BUILD_33000.zip",
-        "type": "cvad"
+        "filetype": "zip",
+        "size": "52.9 MB",
+        "family": "cvad"
     },
     {
-        "version": "2012",
         "edition": "Citrix Virtual Apps and Desktops 7 2012",
+        "product": "Profile Management 2012",
+        "version": "2012",
+        "checksum": "SHA-256 - 5839b33cc72316579d2c33cb3174d2392f69f69bbc07f93d4de32ea9693e62e3",
+        "date": "Dec 14, 2020",
         "dlnumber": "18866",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=18866&URL=https://downloads.citrix.com/18866/ProfileMgmt_2012.zip",
         "filename": "ProfileMgmt_2012.zip",
-        "type": "cvad"
+        "filetype": "zip",
+        "size": "11.8 MB",
+        "family": "cvad"
     },
     {
-        "version": "2012",
         "edition": "Citrix Virtual Apps and Desktops 7 2012",
+        "product": "StoreFront 1912 LTSR CU2",
+        "version": "2012",
+        "checksum": "SHA-256 - b02d9a2250f44f04662fc5e5f5a303c09f5cfb5042cabfdcbd52a7c0fd5fdafa",
+        "date": "Nov 19, 2020",
         "dlnumber": "18840",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=18840&URL=https://downloads.citrix.com/18840/CitrixStoreFront-x64.exe",
         "filename": "CitrixStoreFront-x64.exe",
-        "type": "cvad"
+        "filetype": "exe",
+        "size": "46.2 MB",
+        "family": "cvad"
     },
     {
-        "version": "2012",
         "edition": "Citrix Virtual Apps and Desktops 7 2012",
+        "product": "Sources: Session Recording",
+        "version": "2012",
+        "checksum": "SHA-256 - 5e6a0127c127b19af851fd83dc2cb70b1918dc20ef21af84bf66efc02fb52916",
+        "date": "Feb 23, 2017",
         "dlnumber": "12292",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=12292&URL=https://downloads.citrix.com/12292/MMCFormsShim.zip",
         "filename": "MMCFormsShim.zip",
-        "type": "cvad"
+        "filetype": "zip",
+        "size": "18.1 KB",
+        "family": "cvad"
     },
     {
-        "version": "2009",
         "edition": "Citrix Virtual Apps and Desktops 7 2009",
+        "product": "Citrix Virtual Apps and Desktops 7 2009",
+        "version": "2009",
+        "checksum": "SHA-256 - 48330CC0EFBD169114263D5341A0F5E96F2F2D11FDCCF43DD1E7DB05EF71E695",
+        "date": "Sep 29, 2020",
         "dlnumber": "18750",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=18750&URL=https://downloads.citrix.com/18750/Citrix_Virtual_Apps_and_Desktops_7_2009.iso",
         "filename": "Citrix_Virtual_Apps_and_Desktops_7_2009.iso",
-        "type": "cvad"
+        "filetype": "iso",
+        "size": "2.28 GB",
+        "family": "cvad"
     },
     {
-        "version": "2009",
         "edition": "Citrix Virtual Apps and Desktops 7 2009",
+        "product": "Multi-session OS Virtual Delivery Agent 2009",
+        "version": "2009",
+        "checksum": "SHA-256 - B02D6F5E5F995A684BA3994288C035933A4ADBC6141576910945D1FE3C078DEF",
+        "date": "Sep 29, 2020",
         "dlnumber": "18751",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=18751&URL=https://downloads.citrix.com/18751/VDAServerSetup_2009.exe",
         "filename": "VDAServerSetup_2009.exe",
-        "type": "cvad"
+        "filetype": "exe",
+        "size": "410 MB",
+        "family": "cvad"
     },
     {
-        "version": "2009",
         "edition": "Citrix Virtual Apps and Desktops 7 2009",
+        "product": "Single-session OS Virtual Delivery Agent 2009",
+        "version": "2009",
+        "checksum": "SHA-256 - 239EC1A621227AF1CAAE1B73BDA167338D45618AC6678E135BB692CB18F6EFC4",
+        "date": "Sep 29, 2020",
         "dlnumber": "18752",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=18752&URL=https://downloads.citrix.com/18752/VDAWorkstationSetup_2009.exe",
         "filename": "VDAWorkstationSetup_2009.exe",
-        "type": "cvad"
+        "filetype": "exe",
+        "size": "415 MB",
+        "family": "cvad"
     },
     {
-        "version": "2009",
         "edition": "Citrix Virtual Apps and Desktops 7 2009",
+        "product": "Single-session OS Core Services Virtual Delivery Agent 2009",
+        "version": "2009",
+        "checksum": "SHA-256 - 9F1D450DAE487789E07B7750B07E005B10CEC8B1A427AE9B590F3A244FD6E083",
+        "date": "Sep 29, 2020",
         "dlnumber": "18753",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=18753&URL=https://downloads.citrix.com/18753/VDAWorkstationCoreSetup_2009.exe",
         "filename": "VDAWorkstationCoreSetup_2009.exe",
-        "type": "cvad"
+        "filetype": "exe",
+        "size": "250 MB",
+        "family": "cvad"
     },
     {
-        "version": "2009",
         "edition": "Citrix Virtual Apps and Desktops 7 2009",
+        "product": "License Server for Windows - Version 11.16.6.0 Build 32000",
+        "version": "2009",
+        "checksum": "SHA-256 - 9AE4244BCD901642F03FAAA67BF2445DBF37AAE4908A6A88267B4F17C82979BA",
+        "date": "Sep 29, 2020",
         "dlnumber": "9803",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=9803&URL=https://downloads.citrix.com/9803/Citrix_Licensing_11.16.6.0_BUILD_32000.zip",
         "filename": "Citrix_Licensing_11.16.6.0_BUILD_32000.zip",
-        "type": "cvad"
+        "filetype": "zip",
+        "size": "51.9 MB",
+        "family": "cvad"
     },
     {
-        "version": "2009",
         "edition": "Citrix Virtual Apps and Desktops 7 2009",
+        "product": "Profile Management 2009",
+        "version": "2009",
+        "checksum": "SHA-256 - E3ABDA7DC29280C4EBAC96F42C2231C006B955D090B810FD4C13C9A0FFA5F390",
+        "date": "Sep 29, 2020",
         "dlnumber": "18754",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=18754&URL=https://downloads.citrix.com/18754/ProfileMgmt_2009.zip",
         "filename": "ProfileMgmt_2009.zip",
-        "type": "cvad"
+        "filetype": "zip",
+        "size": "11.3 MB",
+        "family": "cvad"
     },
     {
-        "version": "2009",
         "edition": "Citrix Virtual Apps and Desktops 7 2009",
+        "product": "StoreFront 1912 LTSR CU1",
+        "version": "2009",
+        "checksum": "SHA-256 - D99AAF105591B3CD35D2BF3581776945C4B906593B5A669F9F6411665AF0B943",
+        "date": "May 7, 2020",
         "dlnumber": "17801",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=17801&URL=https://downloads.citrix.com/17801/CitrixStoreFront-x64.exe",
         "filename": "CitrixStoreFront-x64.exe",
-        "type": "cvad"
+        "filetype": "exe",
+        "size": "46.6 MB",
+        "family": "cvad"
     },
     {
-        "version": "2009",
         "edition": "Citrix Virtual Apps and Desktops 7 2009",
+        "product": "Sources: Session Recording",
+        "version": "2009",
+        "checksum": "SHA-256 - 5e6a0127c127b19af851fd83dc2cb70b1918dc20ef21af84bf66efc02fb52916",
+        "date": "Feb 23, 2017",
         "dlnumber": "12292",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=12292&URL=https://downloads.citrix.com/12292/MMCFormsShim.zip",
         "filename": "MMCFormsShim.zip",
-        "type": "cvad"
+        "filetype": "zip",
+        "size": "18.1 KB",
+        "family": "cvad"
     },
     {
-        "version": "2006",
         "edition": "Citrix Virtual Apps and Desktops 7 2006",
+        "product": "Citrix Virtual Apps and Desktops 7 2006",
+        "version": "2006",
+        "checksum": "SHA-256 - 2288e7fcdbec37552673f60b6cefe16c07ff428abb6fe5c86c5c1cefb8d5b1f6",
+        "date": "Jun 16, 2020",
         "dlnumber": "17823",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=17823&URL=https://downloads.citrix.com/17823/Citrix_Virtual_Apps_and_Desktops_7_2006.iso",
         "filename": "Citrix_Virtual_Apps_and_Desktops_7_2006.iso",
-        "type": "cvad"
+        "filetype": "iso",
+        "size": "2.28 GB",
+        "family": "cvad"
     },
     {
-        "version": "2006",
         "edition": "Citrix Virtual Apps and Desktops 7 2006",
+        "product": "Multi-session OS Virtual Delivery Agent 2006",
+        "version": "2006",
+        "checksum": "SHA-256 - 79ad0e86b8581edd29ff9c004e853f20674f56ec010b13cb9da4fbfdeeffe28c",
+        "date": "Jun 16, 2020",
         "dlnumber": "17824",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=17824&URL=https://downloads.citrix.com/17824/VDAServerSetup_2006.exe",
         "filename": "VDAServerSetup_2006.exe",
-        "type": "cvad"
+        "filetype": "exe",
+        "size": "403 MB",
+        "family": "cvad"
     },
     {
-        "version": "2006",
         "edition": "Citrix Virtual Apps and Desktops 7 2006",
+        "product": "Single-session OS Virtual Delivery Agent 2006",
+        "version": "2006",
+        "checksum": "SHA-256 - 3ce0a44b2c788523c979d981da473167617b9a652c9db611eb7614cff379471b",
+        "date": "Jun 16, 2020",
         "dlnumber": "17825",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=17825&URL=https://downloads.citrix.com/17825/VDAWorkstationSetup_2006.exe",
         "filename": "VDAWorkstationSetup_2006.exe",
-        "type": "cvad"
+        "filetype": "exe",
+        "size": "408 MB",
+        "family": "cvad"
     },
     {
-        "version": "2006",
         "edition": "Citrix Virtual Apps and Desktops 7 2006",
+        "product": "Single-session OS Core Services Virtual Delivery Agent 2006",
+        "version": "2006",
+        "checksum": "SHA-256 - 78c60bf525a7e477d46071f4b1c28e52d3c473bd1f25e19f83d1f658c2444d7e",
+        "date": "Jun 16, 2020",
         "dlnumber": "17826",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=17826&URL=https://downloads.citrix.com/17826/VDAWorkstationCoreSetup_2006.exe",
         "filename": "VDAWorkstationCoreSetup_2006.exe",
-        "type": "cvad"
+        "filetype": "exe",
+        "size": "249 MB",
+        "family": "cvad"
     },
     {
-        "version": "2006",
         "edition": "Citrix Virtual Apps and Desktops 7 2006",
+        "product": "License Server for Windows - Version 11.16.6.0 Build 31000",
+        "version": "2006",
+        "checksum": "SHA-256 - b5745fe49c057311a538ee57c18f760e7efdc25eb30c710df6623b028300b0d5",
+        "date": "Jun 16, 2020",
         "dlnumber": "9803",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=9803&URL=https://downloads.citrix.com/9803/Citrix_Licensing_11.16.6.0_BUILD_31000.zip",
         "filename": "Citrix_Licensing_11.16.6.0_BUILD_31000.zip",
-        "type": "cvad"
+        "filetype": "zip",
+        "size": "56.5 MB",
+        "family": "cvad"
     },
     {
-        "version": "2006",
         "edition": "Citrix Virtual Apps and Desktops 7 2006",
+        "product": "Profile Management 2006",
+        "version": "2006",
+        "checksum": "SHA-256 - 75651232f8348751135f0260d9d4ceda7b425f3d24bc3d60c36ecedf68f99e33",
+        "date": "Jun 16, 2020",
         "dlnumber": "17827",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=17827&URL=https://downloads.citrix.com/17827/ProfileMgmt_2006.zip",
         "filename": "ProfileMgmt_2006.zip",
-        "type": "cvad"
+        "filetype": "zip",
+        "size": "11.3 MB",
+        "family": "cvad"
     },
     {
-        "version": "2006",
         "edition": "Citrix Virtual Apps and Desktops 7 2006",
+        "product": "StoreFront 1912 LTSR CU1",
+        "version": "2006",
+        "checksum": "SHA-256 - D99AAF105591B3CD35D2BF3581776945C4B906593B5A669F9F6411665AF0B943",
+        "date": "May 7, 2020",
         "dlnumber": "17801",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=17801&URL=https://downloads.citrix.com/17801/CitrixStoreFront-x64.exe",
         "filename": "CitrixStoreFront-x64.exe",
-        "type": "cvad"
+        "filetype": "exe",
+        "size": "46.6 MB",
+        "family": "cvad"
     },
     {
-        "version": "2006",
         "edition": "Citrix Virtual Apps and Desktops 7 2006",
+        "product": "Sources: Session Recording",
+        "version": "2006",
+        "checksum": "SHA-256 - 5e6a0127c127b19af851fd83dc2cb70b1918dc20ef21af84bf66efc02fb52916",
+        "date": "Feb 23, 2017",
         "dlnumber": "12292",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=12292&URL=https://downloads.citrix.com/12292/MMCFormsShim.zip",
         "filename": "MMCFormsShim.zip",
-        "type": "cvad"
+        "filetype": "zip",
+        "size": "18.1 KB",
+        "family": "cvad"
     },
     {
-        "version": "2003",
         "edition": "Citrix Virtual Apps and Desktops 7 2003",
+        "product": "Citrix Virtual Apps and Desktops 7 2003 ",
+        "version": "2003",
+        "checksum": "SHA-256 - 19D50BB0A37A58A7DAF3EE7839380DEFE11592DA0DF4D58D1C561B3EF6708745",
+        "date": "Mar 26, 2020",
         "dlnumber": "17568",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=17568&URL=https://downloads.citrix.com/17568/Citrix_Virtual_Apps_and_Desktops_7_2003.iso",
         "filename": "Citrix_Virtual_Apps_and_Desktops_7_2003.iso",
-        "type": "cvad"
+        "filetype": "iso",
+        "size": "2.25 GB",
+        "family": "cvad"
     },
     {
-        "version": "2003",
         "edition": "Citrix Virtual Apps and Desktops 7 2003",
+        "product": "Multi-session OS Virtual Delivery Agent 2003",
+        "version": "2003",
+        "checksum": "SHA-256 - ad6a8e24372c042a39e224c8bf7b37efd45192c23c25e309ca1cb2f1b929e1ba",
+        "date": "Mar 26, 2020",
         "dlnumber": "17569",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=17569&URL=https://downloads.citrix.com/17569/VDAServerSetup_2003.exe",
         "filename": "VDAServerSetup_2003.exe",
-        "type": "cvad"
+        "filetype": "exe",
+        "size": "405 MB",
+        "family": "cvad"
     },
     {
-        "version": "2003",
         "edition": "Citrix Virtual Apps and Desktops 7 2003",
+        "product": "Single-session OS Virtual Delivery Agent 2003",
+        "version": "2003",
+        "checksum": "SHA-256 - 207d624d38fc978d68bf420f71adc804c9db3cea4214817b0dda136676b459fb",
+        "date": "Mar 26, 2020",
         "dlnumber": "17570",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=17570&URL=https://downloads.citrix.com/17570/VDAWorkstationSetup_2003.exe",
         "filename": "VDAWorkstationSetup_2003.exe",
-        "type": "cvad"
+        "filetype": "exe",
+        "size": "410 MB",
+        "family": "cvad"
     },
     {
-        "version": "2003",
         "edition": "Citrix Virtual Apps and Desktops 7 2003",
+        "product": "Single-session OS Core Services Virtual Delivery Agent 2003",
+        "version": "2003",
+        "checksum": "SHA-256 - 7e7c2a5113e8492a48f719c04a406feace8eddb26d6fff28913ae51a35b03a73",
+        "date": "Mar 26, 2020",
         "dlnumber": "17571",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=17571&URL=https://downloads.citrix.com/17571/VDAWorkstationCoreSetup_2003.exe",
         "filename": "VDAWorkstationCoreSetup_2003.exe",
-        "type": "cvad"
+        "filetype": "exe",
+        "size": "248 MB",
+        "family": "cvad"
     },
     {
-        "version": "2003",
         "edition": "Citrix Virtual Apps and Desktops 7 2003",
+        "product": "License Server for Windows - Version 11.16.3.0 Build 30000",
+        "version": "2003",
+        "checksum": "SHA-256 - b18f9b8baca3575f4b51270bf1249327b7094cebf0ba89deb8ad44d4cfdb9266",
+        "date": "Mar 26, 2020",
         "dlnumber": "9803",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=9803&URL=https://downloads.citrix.com/9803/Citrix_Licensing_11.16.3.0_BUILD_30000.zip",
         "filename": "Citrix_Licensing_11.16.3.0_BUILD_30000.zip",
-        "type": "cvad"
+        "filetype": "zip",
+        "size": "54.8 MB",
+        "family": "cvad"
     },
     {
-        "version": "2003",
         "edition": "Citrix Virtual Apps and Desktops 7 2003",
+        "product": "Profile Management 2003",
+        "version": "2003",
+        "checksum": "SHA-256 - 195e2ba3e83582450481fa42f49af496d627861c4326bce1b073a7f254a624a7",
+        "date": "Mar 26, 2020",
         "dlnumber": "17572",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=17572&URL=https://downloads.citrix.com/17572/ProfileMgmt_2003.zip",
         "filename": "ProfileMgmt_2003.zip",
-        "type": "cvad"
+        "filetype": "zip",
+        "size": "11.1 MB",
+        "family": "cvad"
     },
     {
-        "version": "2003",
         "edition": "Citrix Virtual Apps and Desktops 7 2003",
+        "product": "StoreFront 1912",
+        "version": "2003",
+        "checksum": "SHA-256 - f8071f8c215d99641774894ac50c9dc75452d00a8f0923b42f679b69395e4640",
+        "date": "Dec 18, 2019",
         "dlnumber": "16841",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=16841&URL=https://downloads.citrix.com/16841/CitrixStoreFront-x64.exe",
         "filename": "CitrixStoreFront-x64.exe",
-        "type": "cvad"
+        "filetype": "exe",
+        "size": "48.5 MB",
+        "family": "cvad"
     },
     {
-        "version": "2003",
         "edition": "Citrix Virtual Apps and Desktops 7 2003",
+        "product": "Sources: Session Recording",
+        "version": "2003",
+        "checksum": "SHA-256 - 5e6a0127c127b19af851fd83dc2cb70b1918dc20ef21af84bf66efc02fb52916",
+        "date": "Feb 23, 2017",
         "dlnumber": "12292",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=12292&URL=https://downloads.citrix.com/12292/MMCFormsShim.zip",
         "filename": "MMCFormsShim.zip",
-        "type": "cvad"
+        "filetype": "zip",
+        "size": "18.1 KB",
+        "family": "cvad"
     },
     {
-        "version": "1909",
         "edition": "Citrix Virtual Apps and Desktops 7 1909",
+        "product": "Citrix Virtual Apps and Desktops 7 1909",
+        "version": "1909",
+        "checksum": "SHA-256 - bec2249c1a9732bfb3713b4a1a154d957cb98b97483c8b887248f3ea449a8cba",
+        "date": "Sep 19, 2019",
         "dlnumber": "16555",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=16555&URL=https://downloads.citrix.com/16555/Citrix_Virtual_Apps_and_Desktops_7_1909.iso",
         "filename": "Citrix_Virtual_Apps_and_Desktops_7_1909.iso",
-        "type": "cvad"
+        "filetype": "iso",
+        "size": "2.56 GB",
+        "family": "cvad"
     },
     {
-        "version": "1909",
         "edition": "Citrix Virtual Apps and Desktops 7 1909",
+        "product": "Server OS Virtual Delivery Agent 1909",
+        "version": "1909",
+        "checksum": "SHA-256 - ac99998fbaa5e2cdde9c6d66a55edb6941742e7c87128b6c7d809aeb8b9d9374",
+        "date": "Sep 19, 2019",
         "dlnumber": "16558",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=16558&URL=https://downloads.citrix.com/16558/VDAServerSetup_1909.exe",
         "filename": "VDAServerSetup_1909.exe",
-        "type": "cvad"
+        "filetype": "exe",
+        "size": "367 MB",
+        "family": "cvad"
     },
     {
-        "version": "1909",
         "edition": "Citrix Virtual Apps and Desktops 7 1909",
+        "product": "Desktop OS Virtual Delivery Agent 1909",
+        "version": "1909",
+        "checksum": "SHA-256 - fae71862b31bf8be21e5d8cc3ce9b0a60fe4a64c773f91b9769c103defc9c743",
+        "date": "Sep 19, 2019",
         "dlnumber": "16559",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=16559&URL=https://downloads.citrix.com/16559/VDAWorkstationSetup_1909.exe",
         "filename": "VDAWorkstationSetup_1909.exe",
-        "type": "cvad"
+        "filetype": "exe",
+        "size": "368 MB",
+        "family": "cvad"
     },
     {
-        "version": "1909",
         "edition": "Citrix Virtual Apps and Desktops 7 1909",
+        "product": "Desktop OS Core Services Virtual Delivery Agent 1909",
+        "version": "1909",
+        "checksum": "SHA-256 - 046efcd6ec4035c9303d636d84cd4160ca1248b3b2f8440ab72fc1775e1cf614",
+        "date": "Sep 19, 2019",
         "dlnumber": "16560",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=16560&URL=https://downloads.citrix.com/16560/VDAWorkstationCoreSetup_1909.exe",
         "filename": "VDAWorkstationCoreSetup_1909.exe",
-        "type": "cvad"
+        "filetype": "exe",
+        "size": "204 MB",
+        "family": "cvad"
     },
     {
-        "version": "1909",
         "edition": "Citrix Virtual Apps and Desktops 7 1909",
+        "product": "License Server for Windows - Version 11.16.3.0 Build 28000",
+        "version": "1909",
+        "checksum": "SHA-256 - 2c650e5e8c46fbc2b22fcf3fb13bdf42764c7d58c1366586bd1e3a0fe6481f77",
+        "date": "Sep 19, 2019",
         "dlnumber": "9803",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=9803&URL=https://downloads.citrix.com/9803/Citrix_Licensing_11.16.3.0_BUILD_28000.zip",
         "filename": "Citrix_Licensing_11.16.3.0_BUILD_28000.zip",
-        "type": "cvad"
+        "filetype": "zip",
+        "size": "54 MB",
+        "family": "cvad"
     },
     {
-        "version": "1909",
         "edition": "Citrix Virtual Apps and Desktops 7 1909",
+        "product": "Profile Management 1909",
+        "version": "1909",
+        "checksum": "SHA-256 - a2bef24c74a4cbd886f6125b6be8196c98558805b46d643a42848eb9c670e102",
+        "date": "Sep 19, 2019",
         "dlnumber": "16561",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=16561&URL=https://downloads.citrix.com/16561/ProfileMgmt_1909.zip",
         "filename": "ProfileMgmt_1909.zip",
-        "type": "cvad"
+        "filetype": "zip",
+        "size": "16 MB",
+        "family": "cvad"
     },
     {
-        "version": "1909",
         "edition": "Citrix Virtual Apps and Desktops 7 1909",
+        "product": "StoreFront 1909",
+        "version": "1909",
+        "checksum": "SHA-256 - c28bb214b84be3ddb49d3631ab37a31c85dad4e98bfe1e0f041b4d4019902d97",
+        "date": "Sep 19, 2019",
         "dlnumber": "16562",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=16562&URL=https://downloads.citrix.com/16562/CitrixStoreFront-x64.exe",
         "filename": "CitrixStoreFront-x64.exe",
-        "type": "cvad"
+        "filetype": "exe",
+        "size": "50.7 MB",
+        "family": "cvad"
     },
     {
-        "version": "1909",
         "edition": "Citrix Virtual Apps and Desktops 7 1909",
+        "product": "Sources: Session Recording",
+        "version": "1909",
+        "checksum": "SHA-256 - 5e6a0127c127b19af851fd83dc2cb70b1918dc20ef21af84bf66efc02fb52916",
+        "date": "Feb 23, 2017",
         "dlnumber": "12292",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=12292&URL=https://downloads.citrix.com/12292/MMCFormsShim.zip",
         "filename": "MMCFormsShim.zip",
-        "type": "cvad"
+        "filetype": "zip",
+        "size": "18.1 KB",
+        "family": "cvad"
     },
     {
-        "version": "1906",
         "edition": "Citrix Virtual Apps and Desktops 7 1906",
+        "product": "Citrix Virtual Apps and Desktops 7 1906.2",
+        "version": "1906",
+        "checksum": "SHA-256 - 58F2E386C5D63E53DB672397A6A929EE8D9A99A7A5F703320E9940962C44D4E6",
+        "date": "Jul 30, 2019",
         "dlnumber": "16107",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=16107&URL=https://downloads.citrix.com/16107/Citrix_Virtual_Apps_and_Desktops_7_1906_2.iso",
         "filename": "Citrix_Virtual_Apps_and_Desktops_7_1906_2.iso",
-        "type": "cvad"
+        "filetype": "iso",
+        "size": "2.58 GB",
+        "family": "cvad"
     },
     {
-        "version": "1906",
         "edition": "Citrix Virtual Apps and Desktops 7 1906",
+        "product": "Server OS Virtual Delivery Agent 1906.2",
+        "version": "1906",
+        "checksum": "SHA-256 - bfde8dfb1b59a2534d57c697642433ffb62bdce001c0b7c099aef9962711d6a7",
+        "date": "Jul 30, 2019",
         "dlnumber": "16110",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=16110&URL=https://downloads.citrix.com/16110/VDAServerSetup_1906_2.exe",
         "filename": "VDAServerSetup_1906_2.exe",
-        "type": "cvad"
+        "filetype": "exe",
+        "size": "361 MB",
+        "family": "cvad"
     },
     {
-        "version": "1906",
         "edition": "Citrix Virtual Apps and Desktops 7 1906",
+        "product": "Desktop OS Virtual Delivery Agent 1906.2",
+        "version": "1906",
+        "checksum": "SHA-256 - 869d17f18b0b91e88de6e50066a696ebe5fea3f8e613118f95e73d6f84a6b045",
+        "date": "Jul 30, 2019",
         "dlnumber": "16111",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=16111&URL=https://downloads.citrix.com/16111/VDAWorkstationSetup_1906_2.exe",
         "filename": "VDAWorkstationSetup_1906_2.exe",
-        "type": "cvad"
+        "filetype": "exe",
+        "size": "447 MB",
+        "family": "cvad"
     },
     {
-        "version": "1906",
         "edition": "Citrix Virtual Apps and Desktops 7 1906",
+        "product": "Desktop OS Core Services Virtual Delivery Agent 1906.2",
+        "version": "1906",
+        "checksum": "SHA-256 - afec2aa4cff31fdf4f57767275ce6db0111bbe66af70f1f5dbee39b468ae58ff",
+        "date": "Jul 30, 2019",
         "dlnumber": "16112",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=16112&URL=https://downloads.citrix.com/16112/VDAWorkstationCoreSetup_1906_2.exe",
         "filename": "VDAWorkstationCoreSetup_1906_2.exe",
-        "type": "cvad"
+        "filetype": "exe",
+        "size": "254 MB",
+        "family": "cvad"
     },
     {
-        "version": "1906",
         "edition": "Citrix Virtual Apps and Desktops 7 1906",
+        "product": "License Server for Windows - Version 11.15.0.0 Build 27000",
+        "version": "1906",
+        "checksum": "SHA-256 - 115E72144453EAF70D4411FFBA445CFA0061FD7BDEA8600AD6FAA2A78710C996",
+        "date": "Jul 8, 2019",
         "dlnumber": "9803",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=9803&URL=https://downloads.citrix.com/9803/Citrix_Licensing_11.15.0.0_BUILD_27000.zip",
         "filename": "Citrix_Licensing_11.15.0.0_BUILD_27000.zip",
-        "type": "cvad"
+        "filetype": "zip",
+        "size": "53.7 MB",
+        "family": "cvad"
     },
     {
-        "version": "1906",
         "edition": "Citrix Virtual Apps and Desktops 7 1906",
+        "product": "Profile Management 1906",
+        "version": "1906",
+        "checksum": "SHA-256 - f16fb47151675db18546c5d4858633b33c47705ea0dacb17a5234e4eabe85864",
+        "date": "Jun 18, 2019",
         "dlnumber": "16113",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=16113&URL=https://downloads.citrix.com/16113/ProfileMgmt_1906.zip",
         "filename": "ProfileMgmt_1906.zip",
-        "type": "cvad"
+        "filetype": "zip",
+        "size": "15.9 MB",
+        "family": "cvad"
     },
     {
-        "version": "1906",
         "edition": "Citrix Virtual Apps and Desktops 7 1906",
+        "product": "StoreFront 1906.2",
+        "version": "1906",
+        "checksum": "SHA-256 - b335e590441ff2d8f265e095891022b47759edbc397a760c4bf3a63fe514f7fe",
+        "date": "Jul 30, 2019",
         "dlnumber": "16426",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=16426&URL=https://downloads.citrix.com/16426/CitrixStoreFront-x64.exe",
         "filename": "CitrixStoreFront-x64.exe",
-        "type": "cvad"
+        "filetype": "exe",
+        "size": "49.6 MB",
+        "family": "cvad"
     },
     {
-        "version": "1906",
         "edition": "Citrix Virtual Apps and Desktops 7 1906",
+        "product": "Sources: Session Recording",
+        "version": "1906",
+        "checksum": "SHA-256 - 5e6a0127c127b19af851fd83dc2cb70b1918dc20ef21af84bf66efc02fb52916",
+        "date": "Feb 23, 2017",
         "dlnumber": "12292",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=12292&URL=https://downloads.citrix.com/12292/MMCFormsShim.zip",
         "filename": "MMCFormsShim.zip",
-        "type": "cvad"
+        "filetype": "zip",
+        "size": "18.1 KB",
+        "family": "cvad"
     },
     {
-        "version": "1903",
         "edition": "Citrix Virtual Apps and Desktops 7 1903",
+        "product": "Citrix Virtual Apps and Desktops 7 1903",
+        "version": "1903",
+        "checksum": "SHA-256 - d1939d6e5b9a3c5b4f1f0fd58e0c62c12f247e73e7bf7aca2c356e7249b9b78c",
+        "date": "Mar 28, 2019",
         "dlnumber": "15898",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=15898&URL=https://downloads.citrix.com/15898/Citrix_Virtual_Apps_and_Desktops_7_1903.iso",
         "filename": "Citrix_Virtual_Apps_and_Desktops_7_1903.iso",
-        "type": "cvad"
+        "filetype": "iso",
+        "size": "2.54 GB",
+        "family": "cvad"
     },
     {
-        "version": "1903",
         "edition": "Citrix Virtual Apps and Desktops 7 1903",
+        "product": "Server OS Virtual Delivery Agent 1903",
+        "version": "1903",
+        "checksum": "SHA-256 - b7a8a7edb4b38616beaae9166af39b46ee4cd8452980070598234cd17a365093",
+        "date": "Mar 28, 2019",
         "dlnumber": "15901",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=15901&URL=https://downloads.citrix.com/15901/VDAServerSetup_1903.exe",
         "filename": "VDAServerSetup_1903.exe",
-        "type": "cvad"
+        "filetype": "exe",
+        "size": "299 MB",
+        "family": "cvad"
     },
     {
-        "version": "1903",
         "edition": "Citrix Virtual Apps and Desktops 7 1903",
+        "product": "Desktop OS Virtual Delivery Agent 1903",
+        "version": "1903",
+        "checksum": "SHA-256 - 07be0e465798f44cc015c943fa1738ce2650b1e0c177e0d9be18b0c8fd95b8aa",
+        "date": "Mar 28, 2019",
         "dlnumber": "15902",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=15902&URL=https://downloads.citrix.com/15902/VDAWorkstationSetup_1903.exe",
         "filename": "VDAWorkstationSetup_1903.exe",
-        "type": "cvad"
+        "filetype": "exe",
+        "size": "379 MB",
+        "family": "cvad"
     },
     {
-        "version": "1903",
         "edition": "Citrix Virtual Apps and Desktops 7 1903",
+        "product": "Desktop OS Core Services Virtual Delivery Agent 1903",
+        "version": "1903",
+        "checksum": "SHA-256 - 550d6163eb784110f7022811351ee0dcaa303c492f23ca0b3cbcf35ef113ea45",
+        "date": "Mar 28, 2019",
         "dlnumber": "15903",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=15903&URL=https://downloads.citrix.com/15903/VDAWorkstationCoreSetup_1903.exe",
         "filename": "VDAWorkstationCoreSetup_1903.exe",
-        "type": "cvad"
+        "filetype": "exe",
+        "size": "212 MB",
+        "family": "cvad"
     },
     {
-        "version": "1903",
         "edition": "Citrix Virtual Apps and Desktops 7 1903",
+        "product": "License Server for Windows - Version 11.15.0.0 Build 26000",
+        "version": "1903",
+        "checksum": "SHA-256 - 34720c51493f12f95a9d74b37e01253ab785bb038b8f100b668ead14ee288489",
+        "date": "Dec 12, 2018",
         "dlnumber": "9803",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=9803&URL=https://downloads.citrix.com/9803/Citrix_Licensing_11.15.0.0_BUILD_26000.zip",
         "filename": "Citrix_Licensing_11.15.0.0_BUILD_26000.zip",
-        "type": "cvad"
+        "filetype": "zip",
+        "size": "54.4 MB",
+        "family": "cvad"
     },
     {
-        "version": "1903",
         "edition": "Citrix Virtual Apps and Desktops 7 1903",
+        "product": "Profile Management 1903",
+        "version": "1903",
+        "checksum": "SHA-256 - 19bb67c2a059fe776f6a79e3b224ce06bf791d8f794082c643a0c5d542692c17",
+        "date": "Mar 28, 2019",
         "dlnumber": "15904",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=15904&URL=https://downloads.citrix.com/15904/ProfileMgmt_1903.zip",
         "filename": "ProfileMgmt_1903.zip",
-        "type": "cvad"
+        "filetype": "zip",
+        "size": "15.9 MB",
+        "family": "cvad"
     },
     {
-        "version": "1903",
         "edition": "Citrix Virtual Apps and Desktops 7 1903",
+        "product": "StoreFront 1903",
+        "version": "1903",
+        "checksum": "SHA-256 - 9ab85444479a0f671bdd8bf3e0c2346ff615cee4135434fbe6e6ff6b8b3eeb5f",
+        "date": "Mar 28, 2019",
         "dlnumber": "15905",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=15905&URL=https://downloads.citrix.com/15905/CitrixStoreFront-x64.exe",
         "filename": "CitrixStoreFront-x64.exe",
-        "type": "cvad"
+        "filetype": "exe",
+        "size": "45.4 MB",
+        "family": "cvad"
     },
     {
-        "version": "1903",
         "edition": "Citrix Virtual Apps and Desktops 7 1903",
+        "product": "Sources: Session Recording",
+        "version": "1903",
+        "checksum": "SHA-256 - 5e6a0127c127b19af851fd83dc2cb70b1918dc20ef21af84bf66efc02fb52916",
+        "date": "Feb 23, 2017",
         "dlnumber": "12292",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=12292&URL=https://downloads.citrix.com/12292/MMCFormsShim.zip",
         "filename": "MMCFormsShim.zip",
-        "type": "cvad"
+        "filetype": "zip",
+        "size": "18.1 KB",
+        "family": "cvad"
     },
     {
-        "version": "1811",
         "edition": "Citrix Virtual Apps and Desktops 7 1811",
+        "product": "Citrix Virtual Apps and Desktops 7 1811",
+        "version": "1811",
+        "checksum": "SHA-256 - 71740B5A279FDF4ADF73F3AF839F7466793870EC3C007F023C9CD8036402F7D7",
+        "date": "Dec 12, 2018",
         "dlnumber": "15504",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=15504&URL=https://downloads.citrix.com/15504/Citrix_Virtual_Apps_and_Desktops_7_1811.iso",
         "filename": "Citrix_Virtual_Apps_and_Desktops_7_1811.iso",
-        "type": "cvad"
+        "filetype": "iso",
+        "size": "2.50 GB",
+        "family": "cvad"
     },
     {
-        "version": "1811",
         "edition": "Citrix Virtual Apps and Desktops 7 1811",
+        "product": "Server OS Virtual Delivery Agent 1811",
+        "version": "1811",
+        "checksum": "SHA-256 - d3f2abeb57b56213fb0756e884119a1a2a08a2460e0e5ca4b5176cb78dc3050f",
+        "date": "Dec 12, 2018",
         "dlnumber": "15550",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=15550&URL=https://downloads.citrix.com/15550/VDAServerSetup_1811.exe",
         "filename": "VDAServerSetup_1811.exe",
-        "type": "cvad"
+        "filetype": "exe",
+        "size": "295 MB",
+        "family": "cvad"
     },
     {
-        "version": "1811",
         "edition": "Citrix Virtual Apps and Desktops 7 1811",
+        "product": "Desktop OS Virtual Delivery Agent 1811",
+        "version": "1811",
+        "checksum": "SHA-256 - 467efaf4a0ad4f908788cecd01411205e10302df044e9f22b85d96796a93b913",
+        "date": "Dec 12, 2018",
         "dlnumber": "15551",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=15551&URL=https://downloads.citrix.com/15551/VDAWorkstationSetup_1811.exe",
         "filename": "VDAWorkstationSetup_1811.exe",
-        "type": "cvad"
+        "filetype": "exe",
+        "size": "373 MB",
+        "family": "cvad"
     },
     {
-        "version": "1811",
         "edition": "Citrix Virtual Apps and Desktops 7 1811",
+        "product": "Desktop OS Core Services Virtual Delivery Agent 1811",
+        "version": "1811",
+        "checksum": "SHA-256 - c7d45c58bfcd494c04f8ea43b9debc7a27a283dbe09574b3b5853352e75dba19",
+        "date": "Dec 12, 2018",
         "dlnumber": "15552",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=15552&URL=https://downloads.citrix.com/15552/VDAWorkstationCoreSetup_1811.exe",
         "filename": "VDAWorkstationCoreSetup_1811.exe",
-        "type": "cvad"
+        "filetype": "exe",
+        "size": "214 MB",
+        "family": "cvad"
     },
     {
-        "version": "1811",
         "edition": "Citrix Virtual Apps and Desktops 7 1811",
+        "product": "License Server for Windows - Version 11.15.0.0 Build 26000",
+        "version": "1811",
+        "checksum": "SHA-256 - 34720c51493f12f95a9d74b37e01253ab785bb038b8f100b668ead14ee288489",
+        "date": "Dec 12, 2018",
         "dlnumber": "9803",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=9803&URL=https://downloads.citrix.com/9803/Citrix_Licensing_11.15.0.0_BUILD_26000.zip",
         "filename": "Citrix_Licensing_11.15.0.0_BUILD_26000.zip",
-        "type": "cvad"
+        "filetype": "zip",
+        "size": "54.4 MB",
+        "family": "cvad"
     },
     {
-        "version": "1811",
         "edition": "Citrix Virtual Apps and Desktops 7 1811",
+        "product": "Profile Management 1811",
+        "version": "1811",
+        "checksum": "SHA-256 - 4687fb5889708677f593d630289b799dd12f2f844b8d63a2dcd4ae0515275971",
+        "date": "Dec 12, 2018",
         "dlnumber": "15556",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=15556&URL=https://downloads.citrix.com/15556/ProfileMgmt_1811.zip",
         "filename": "ProfileMgmt_1811.zip",
-        "type": "cvad"
+        "filetype": "zip",
+        "size": "15.9 MB",
+        "family": "cvad"
     },
     {
-        "version": "1811",
         "edition": "Citrix Virtual Apps and Desktops 7 1811",
+        "product": "StoreFront 1811",
+        "version": "1811",
+        "checksum": "SHA-256 - e64fffafa702eb92a5aa99bae253015bcc17acd83edeb914e13c2b271ef1ab15",
+        "date": "Dec 12, 2018",
         "dlnumber": "15553",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=15553&URL=https://downloads.citrix.com/15553/CitrixStoreFront-x64.exe",
         "filename": "CitrixStoreFront-x64.exe",
-        "type": "cvad"
+        "filetype": "exe",
+        "size": "45.4 MB",
+        "family": "cvad"
     },
     {
-        "version": "1811",
         "edition": "Citrix Virtual Apps and Desktops 7 1811",
+        "product": "Sources: Session Recording",
+        "version": "1811",
+        "checksum": "SHA-256 - 5e6a0127c127b19af851fd83dc2cb70b1918dc20ef21af84bf66efc02fb52916",
+        "date": "Feb 23, 2017",
         "dlnumber": "12292",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=12292&URL=https://downloads.citrix.com/12292/MMCFormsShim.zip",
         "filename": "MMCFormsShim.zip",
-        "type": "cvad"
+        "filetype": "zip",
+        "size": "18.1 KB",
+        "family": "cvad"
     },
     {
-        "version": "1808",
         "edition": "Citrix Virtual Apps and Desktops 7 1808",
+        "product": "Citrix Virtual Apps and Desktops 7 1808.2",
+        "version": "1808",
+        "checksum": "SHA-256 - 1c1d3c9bd682634c1bc8d60d0253a954d1e6528f7101beec2195e66bfc2b4b24",
+        "date": "Sep 3, 2018",
         "dlnumber": "15146",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=15146&URL=https://downloads.citrix.com/15146/Citrix_Virtual_Apps_and_Desktops_7_1808_2.iso",
         "filename": "Citrix_Virtual_Apps_and_Desktops_7_1808_2.iso",
-        "type": "cvad"
+        "filetype": "iso",
+        "size": "2.56 GB",
+        "family": "cvad"
     },
     {
-        "version": "1808",
         "edition": "Citrix Virtual Apps and Desktops 7 1808",
+        "product": "Server OS Virtual Delivery Agent 1808.2",
+        "version": "1808",
+        "checksum": "SHA-256 - 7725c6f4fd021a211af83a12c98475b6819202d61d2c8910ff40c8f651f9e237",
+        "date": "Sep 3, 2018",
         "dlnumber": "15053",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=15053&URL=https://downloads.citrix.com/15053/VDAServerSetup_1808_2.exe",
         "filename": "VDAServerSetup_1808_2.exe",
-        "type": "cvad"
+        "filetype": "exe",
+        "size": "310 MB",
+        "family": "cvad"
     },
     {
-        "version": "1808",
         "edition": "Citrix Virtual Apps and Desktops 7 1808",
+        "product": "Desktop OS Virtual Delivery Agent 1808.2",
+        "version": "1808",
+        "checksum": "SHA-256 - cad5805c31fbfbf0b05d3e1a0a9531b33e960b37183ef5c15caf53ff7181175a",
+        "date": "Sep 3, 2018",
         "dlnumber": "15054",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=15054&URL=https://downloads.citrix.com/15054/VDAWorkstationSetup_1808_2.exe",
         "filename": "VDAWorkstationSetup_1808_2.exe",
-        "type": "cvad"
+        "filetype": "exe",
+        "size": "388 MB",
+        "family": "cvad"
     },
     {
-        "version": "1808",
         "edition": "Citrix Virtual Apps and Desktops 7 1808",
+        "product": "Desktop OS Core Services Virtual Delivery Agent 1808.2",
+        "version": "1808",
+        "checksum": "SHA-256 - 5e9a8e8602a7585d81101b1cba36c018f5b0dc7696ffae096530e94e801e38bb",
+        "date": "Sep 3, 2018",
         "dlnumber": "15055",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=15055&URL=https://downloads.citrix.com/15055/VDAWorkstationCoreSetup_1808_2.exe",
         "filename": "VDAWorkstationCoreSetup_1808_2.exe",
-        "type": "cvad"
+        "filetype": "exe",
+        "size": "238 MB",
+        "family": "cvad"
     },
     {
-        "version": "1808",
         "edition": "Citrix Virtual Apps and Desktops 7 1808",
+        "product": "License Server for Windows - Version 11.15.0.0 Build 25000",
+        "version": "1808",
+        "checksum": "SHA-256 - 23e63723b1bf453fcbe3f7aba321cafe663c1d9afe42f4a40325aede4e25a2a8",
+        "date": "Aug 30, 2018",
         "dlnumber": "9803",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=9803&URL=https://downloads.citrix.com/9803/Citrix_Licensing_11.15.0.0_BUILD_25000.zip",
         "filename": "Citrix_Licensing_11.15.0.0_BUILD_25000.zip",
-        "type": "cvad"
+        "filetype": "zip",
+        "size": "54.4 MB",
+        "family": "cvad"
     },
     {
-        "version": "1808",
         "edition": "Citrix Virtual Apps and Desktops 7 1808",
+        "product": "Profile Management 1808",
+        "version": "1808",
+        "checksum": "SHA-256 - 126bcbd58356433f0a91b6b45af23370e386ae2143b22141eec2f0c91956ff27",
+        "date": "Aug 30, 2018",
         "dlnumber": "15056",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=15056&URL=https://downloads.citrix.com/15056/ProfileMgmt_1808.zip",
         "filename": "ProfileMgmt_1808.zip",
-        "type": "cvad"
+        "filetype": "zip",
+        "size": "15.9 MB",
+        "family": "cvad"
     },
     {
-        "version": "1808",
         "edition": "Citrix Virtual Apps and Desktops 7 1808",
+        "product": "StoreFront 3.16",
+        "version": "1808",
+        "checksum": "SHA-256 - 82f6324a7bbff839c7f2e764c38ce7f456d003bf6bf0328affc50e77f6dc046b",
+        "date": "Aug 30, 2018",
         "dlnumber": "15057",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=15057&URL=https://downloads.citrix.com/15057/CitrixStoreFront-x64.exe",
         "filename": "CitrixStoreFront-x64.exe",
-        "type": "cvad"
+        "filetype": "exe",
+        "size": "45.8 MB",
+        "family": "cvad"
     },
     {
-        "version": "1808",
         "edition": "Citrix Virtual Apps and Desktops 7 1808",
+        "product": "Sources: Session Recording",
+        "version": "1808",
+        "checksum": "SHA-256 - 5e6a0127c127b19af851fd83dc2cb70b1918dc20ef21af84bf66efc02fb52916",
+        "date": "Feb 23, 2017",
         "dlnumber": "12292",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=12292&URL=https://downloads.citrix.com/12292/MMCFormsShim.zip",
         "filename": "MMCFormsShim.zip",
-        "type": "cvad"
+        "filetype": "zip",
+        "size": "18.1 KB",
+        "family": "cvad"
     },
     {
-        "version": "7.18",
         "edition": "XenApp 7.18 / XenDesktop 7.18",
+        "product": "XenApp 7.18 / XenDesktop 7.18",
+        "version": "7.18",
+        "checksum": "SHA-256 - 6b240b6e09c1d1a99adb3d5a572bdc74cd54c030b95e72267b10a74a2286593e",
+        "date": "Jun 5, 2018",
         "dlnumber": "14705",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=14705&URL=https://downloads.citrix.com/14705/XenApp_and_XenDesktop_7_18.iso",
         "filename": "XenApp_and_XenDesktop_7_18.iso",
-        "type": "cvad"
+        "filetype": "iso",
+        "size": "2.43 GB",
+        "family": "cvad"
     },
     {
-        "version": "7.18",
         "edition": "XenApp 7.18 / XenDesktop 7.18",
+        "product": "Server OS Virtual Delivery Agent 7.18",
+        "version": "7.18",
+        "checksum": "SHA-256 - e51da1646560392ba6ac1f3cee5ebce38bfc54fab810f03a8090eca71f4174de",
+        "date": "Jun 5, 2018",
         "dlnumber": "14708",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=14708&URL=https://downloads.citrix.com/14708/VDAServerSetup_7.18.exe",
         "filename": "VDAServerSetup_7.18.exe",
-        "type": "cvad"
+        "filetype": "exe",
+        "size": "264 MB",
+        "family": "cvad"
     },
     {
-        "version": "7.18",
         "edition": "XenApp 7.18 / XenDesktop 7.18",
+        "product": "Desktop OS Virtual Delivery Agent 7.18",
+        "version": "7.18",
+        "checksum": "SHA-256 - 20ce75a297325812887c2f9606a220c5cb7b0e0a194a4dd4874c704363d0c157",
+        "date": "Jun 5, 2018",
         "dlnumber": "14709",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=14709&URL=https://downloads.citrix.com/14709/VDAWorkstationSetup_7.18.exe",
         "filename": "VDAWorkstationSetup_7.18.exe",
-        "type": "cvad"
+        "filetype": "exe",
+        "size": "343 MB",
+        "family": "cvad"
     },
     {
-        "version": "7.18",
         "edition": "XenApp 7.18 / XenDesktop 7.18",
+        "product": "Desktop OS Core Services Virtual Delivery Agent 7.18",
+        "version": "7.18",
+        "checksum": "SHA-256 - 4d0db978c714a03a23793752f4d00d724b575d1c83468b92ac4c5e97632cde53",
+        "date": "Jun 5, 2018",
         "dlnumber": "14710",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=14710&URL=https://downloads.citrix.com/14710/VDAWorkstationCoreSetup_7.18.exe",
         "filename": "VDAWorkstationCoreSetup_7.18.exe",
-        "type": "cvad"
+        "filetype": "exe",
+        "size": "258 MB",
+        "family": "cvad"
     },
     {
-        "version": "7.18",
         "edition": "XenApp 7.18 / XenDesktop 7.18",
+        "product": "License Server - Version 11.15.0.0 Build 24100 for Windows",
+        "version": "7.18",
+        "checksum": "SHA-256 - a3f3b6bc7f4807bf7717f8fdc0fab0504e24a94ca0517383bbf79663bf3d6dcc",
+        "date": "Jun 5, 2018",
         "dlnumber": "9803",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=9803&URL=https://downloads.citrix.com/9803/Citrix_Licensing_11.15.0.0_BUILD_24100.zip",
         "filename": "Citrix_Licensing_11.15.0.0_BUILD_24100.zip",
-        "type": "cvad"
+        "filetype": "zip",
+        "size": "52.8 MB",
+        "family": "cvad"
     },
     {
-        "version": "7.18",
         "edition": "XenApp 7.18 / XenDesktop 7.18",
+        "product": "Profile Management 7.18",
+        "version": "7.18",
+        "checksum": "SHA-256 - 59ad35f4ca8fb0d3b0316d00334cf5f0a46a76463f48fcd4333a812c33f9218c",
+        "date": "Jun 5, 2018",
         "dlnumber": "14711",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=14711&URL=https://downloads.citrix.com/14711/ProfileMgmt-7.18.0.zip",
         "filename": "ProfileMgmt-7.18.0.zip",
-        "type": "cvad"
+        "filetype": "zip",
+        "size": "15.8 MB",
+        "family": "cvad"
     },
     {
-        "version": "7.18",
         "edition": "XenApp 7.18 / XenDesktop 7.18",
+        "product": "StoreFront 3.15",
+        "version": "7.18",
+        "checksum": "SHA-256 - a815aad71d4a472263e3eb30fd50115e73eec86f232574ff98772948c23dced2",
+        "date": "Jun 5, 2018",
         "dlnumber": "14712",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=14712&URL=https://downloads.citrix.com/14712/CitrixStoreFront-x64.exe",
         "filename": "CitrixStoreFront-x64.exe",
-        "type": "cvad"
+        "filetype": "exe",
+        "size": "47.9 MB",
+        "family": "cvad"
     },
     {
-        "version": "7.18",
         "edition": "XenApp 7.18 / XenDesktop 7.18",
+        "product": "Sources: Session Recording",
+        "version": "7.18",
+        "checksum": "SHA-256 - 5e6a0127c127b19af851fd83dc2cb70b1918dc20ef21af84bf66efc02fb52916",
+        "date": "Feb 23, 2017",
         "dlnumber": "12292",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=12292&URL=https://downloads.citrix.com/12292/MMCFormsShim.zip",
         "filename": "MMCFormsShim.zip",
-        "type": "cvad"
+        "filetype": "zip",
+        "size": "18.1 KB",
+        "family": "cvad"
     },
     {
-        "version": "7.17",
         "edition": "XenApp 7.17 / XenDesktop 7.17",
+        "product": "XenApp 7.17 / XenDesktop 7.17",
+        "version": "7.17",
+        "checksum": "SHA-256 - be82a0a4d28fc27004316d30e33a6b7a30908606f322d4bd751293a3c363ebe5",
+        "date": "Feb 27, 2018",
         "dlnumber": "14338",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=14338&URL=https://downloads.citrix.com/14338/XenApp_and_XenDesktop_7_17.iso",
         "filename": "XenApp_and_XenDesktop_7_17.iso",
-        "type": "cvad"
+        "filetype": "iso",
+        "size": "2.46 GB",
+        "family": "cvad"
     },
     {
-        "version": "7.17",
         "edition": "XenApp 7.17 / XenDesktop 7.17",
+        "product": "Server OS Virtual Delivery Agent 7.17",
+        "version": "7.17",
+        "checksum": "SHA-256 - 88e4abed9eabf958282a4dcb9d6e419004a06cfcbcf5cd416762be50324b02e3",
+        "date": "Feb 27, 2018",
         "dlnumber": "14341",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=14341&URL=https://downloads.citrix.com/14341/VDAServerSetup_7.17.exe",
         "filename": "VDAServerSetup_7.17.exe",
-        "type": "cvad"
+        "filetype": "exe",
+        "size": "262 MB",
+        "family": "cvad"
     },
     {
-        "version": "7.17",
         "edition": "XenApp 7.17 / XenDesktop 7.17",
+        "product": "Desktop OS Virtual Delivery Agent 7.17",
+        "version": "7.17",
+        "checksum": "SHA-256 - 5ad6b8118786e4ed0e004c0362b4bc0338b7e9472d7cf41095314d167d38068e",
+        "date": "Feb 27, 2018",
         "dlnumber": "14342",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=14342&URL=https://downloads.citrix.com/14342/VDAWorkstationSetup_7.17.exe",
         "filename": "VDAWorkstationSetup_7.17.exe",
-        "type": "cvad"
+        "filetype": "exe",
+        "size": "341 MB",
+        "family": "cvad"
     },
     {
-        "version": "7.17",
         "edition": "XenApp 7.17 / XenDesktop 7.17",
+        "product": "Desktop OS Core Services Virtual Delivery Agent 7.17",
+        "version": "7.17",
+        "checksum": "SHA-256 - d2a2a40564145a7a86796fd33f55c7cee726c0edada1a919b93b22c16857d2ad",
+        "date": "Feb 27, 2018",
         "dlnumber": "14343",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=14343&URL=https://downloads.citrix.com/14343/VDAWorkstationCoreSetup_7.17.exe",
         "filename": "VDAWorkstationCoreSetup_7.17.exe",
-        "type": "cvad"
+        "filetype": "exe",
+        "size": "262 MB",
+        "family": "cvad"
     },
     {
-        "version": "7.17",
         "edition": "XenApp 7.17 / XenDesktop 7.17",
+        "product": "License Server - Version 11.14.0.1 Build 23101 for Windows",
+        "version": "7.17",
+        "checksum": "SHA-256 - 1f96b68cc855571d0f8a631042ff09f1e221a5f2837a7b1d8193f7fb4258685c",
+        "date": "Feb 27, 2018",
         "dlnumber": "9803",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=9803&URL=https://downloads.citrix.com/9803/Citrix_Licensing_11.14.0.1_BUILD_23101.zip",
         "filename": "Citrix_Licensing_11.14.0.1_BUILD_23101.zip",
-        "type": "cvad"
+        "filetype": "zip",
+        "size": "52.6 MB",
+        "family": "cvad"
     },
     {
-        "version": "7.17",
         "edition": "XenApp 7.17 / XenDesktop 7.17",
+        "product": "Profile Management 7.17",
+        "version": "7.17",
+        "checksum": "SHA-256 - 6b8a0a31a120570a3338d6b7516c2277c40b29ccd7e3e4724eaabb408298ce30",
+        "date": "Feb 27, 2018",
         "dlnumber": "14344",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=14344&URL=https://downloads.citrix.com/14344/ProfileMgmt-7.17.0.zip",
         "filename": "ProfileMgmt-7.17.0.zip",
-        "type": "cvad"
+        "filetype": "zip",
+        "size": "13.4 MB",
+        "family": "cvad"
     },
     {
-        "version": "7.17",
         "edition": "XenApp 7.17 / XenDesktop 7.17",
+        "product": "StoreFront 3.14",
+        "version": "7.17",
+        "checksum": "SHA-256 - 1e226d95dbd6833673d50fdee0ebb2fe90f75fbb0524556d311b951c9503edc8",
+        "date": "Feb 27, 2018",
         "dlnumber": "14345",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=14345&URL=https://downloads.citrix.com/14345/CitrixStoreFront-x64.exe",
         "filename": "CitrixStoreFront-x64.exe",
-        "type": "cvad"
+        "filetype": "exe",
+        "size": "48.2 MB",
+        "family": "cvad"
     },
     {
-        "version": "7.17",
         "edition": "XenApp 7.17 / XenDesktop 7.17",
+        "product": "Sources: Session Recording",
+        "version": "7.17",
+        "checksum": "SHA-256 - 5e6a0127c127b19af851fd83dc2cb70b1918dc20ef21af84bf66efc02fb52916",
+        "date": "Feb 23, 2017",
         "dlnumber": "12292",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=12292&URL=https://downloads.citrix.com/12292/MMCFormsShim.zip",
         "filename": "MMCFormsShim.zip",
-        "type": "cvad"
+        "filetype": "zip",
+        "size": "18.1 KB",
+        "family": "cvad"
     },
     {
-        "version": "7.16",
         "edition": "XenApp 7.16 / XenDesktop 7.16",
+        "product": "XenApp 7.16 / XenDesktop 7.16 ",
+        "version": "7.16",
+        "checksum": "SHA-256 - fd17355b1387d7f24bf5f0d04cfab240d70bf8c6274791efba79f51fcd8f8cb9",
+        "date": "Nov 28, 2017",
         "dlnumber": "13852",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=13852&URL=https://downloads.citrix.com/13852/XenApp_and_XenDesktop_7_16.iso",
         "filename": "XenApp_and_XenDesktop_7_16.iso",
-        "type": "cvad"
+        "filetype": "iso",
+        "size": "2.44 GB",
+        "family": "cvad"
     },
     {
-        "version": "7.16",
         "edition": "XenApp 7.16 / XenDesktop 7.16",
+        "product": "Server OS Virtual Delivery Agent 7.16",
+        "version": "7.16",
+        "checksum": "SHA-256 - 87ed6cfe70c0bc6f54198cebc27a2d69e16bffea365068ad895fcddd451a4419",
+        "date": "Nov 28, 2017",
         "dlnumber": "13856",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=13856&URL=https://downloads.citrix.com/13856/VDAServerSetup_7.16.exe",
         "filename": "VDAServerSetup_7.16.exe",
-        "type": "cvad"
+        "filetype": "exe",
+        "size": "260 MB",
+        "family": "cvad"
     },
     {
-        "version": "7.16",
         "edition": "XenApp 7.16 / XenDesktop 7.16",
+        "product": "Desktop OS Virtual Delivery Agent 7.16",
+        "version": "7.16",
+        "checksum": "SHA-256 - 2b1f63856575a03f3c37c56f1fd377151bdfc3d44b0ed993b6552214788b1e31",
+        "date": "Nov 28, 2017",
         "dlnumber": "13857",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=13857&URL=https://downloads.citrix.com/13857/VDAWorkstationSetup_7.16.exe",
         "filename": "VDAWorkstationSetup_7.16.exe",
-        "type": "cvad"
+        "filetype": "exe",
+        "size": "338 MB",
+        "family": "cvad"
     },
     {
-        "version": "7.16",
         "edition": "XenApp 7.16 / XenDesktop 7.16",
+        "product": "Desktop OS Core Services Virtual Delivery Agent 7.16",
+        "version": "7.16",
+        "checksum": "SHA-256 - 523a611891b171ef026e5849313e25ce652da661cf0868c5175cc92eab903a84",
+        "date": "Nov 28, 2017",
         "dlnumber": "13858",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=13858&URL=https://downloads.citrix.com/13858/VDAWorkstationCoreSetup_7.16.exe",
         "filename": "VDAWorkstationCoreSetup_7.16.exe",
-        "type": "cvad"
+        "filetype": "exe",
+        "size": "255 MB",
+        "family": "cvad"
     },
     {
-        "version": "7.16",
         "edition": "XenApp 7.16 / XenDesktop 7.16",
+        "product": "License Server - Version 11.14.0.1 Build 22103 for Windows",
+        "version": "7.16",
+        "checksum": "SHA-256 - f5a32861f0aa38f1bba4febbeff2ac52b55dc192ac2f49bc82d119368657f2b5",
+        "date": "Nov 28, 2017",
         "dlnumber": "9803",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=9803&URL=https://downloads.citrix.com/9803/Citrix_Licensing_11.14.0.1_BUILD_22103.zip",
         "filename": "Citrix_Licensing_11.14.0.1_BUILD_22103.zip",
-        "type": "cvad"
+        "filetype": "zip",
+        "size": "51.5 MB",
+        "family": "cvad"
     },
     {
-        "version": "7.16",
         "edition": "XenApp 7.16 / XenDesktop 7.16",
+        "product": "Profile Management 7.16",
+        "version": "7.16",
+        "checksum": "SHA-256 - e002c652245eeb31494737f050bb6e616ced9465d88643bb51aa519798c1e976",
+        "date": "Nov 28, 2017",
         "dlnumber": "13859",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=13859&URL=https://downloads.citrix.com/13859/ProfileMgmt-7.16.0.zip",
         "filename": "ProfileMgmt-7.16.0.zip",
-        "type": "cvad"
+        "filetype": "zip",
+        "size": "13.0 MB",
+        "family": "cvad"
     },
     {
-        "version": "7.16",
         "edition": "XenApp 7.16 / XenDesktop 7.16",
+        "product": "StoreFront 3.13",
+        "version": "7.16",
+        "checksum": "SHA-256 - 96bb9fff92121f7e021e3aa708466c814c6cbe8727bc91fc321a37ca3b6c34fa",
+        "date": "Nov 28, 2017",
         "dlnumber": "13861",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=13861&URL=https://downloads.citrix.com/13861/CitrixStoreFront-x64.exe",
         "filename": "CitrixStoreFront-x64.exe",
-        "type": "cvad"
+        "filetype": "exe",
+        "size": "47.7 MB",
+        "family": "cvad"
     },
     {
-        "version": "7.16",
         "edition": "XenApp 7.16 / XenDesktop 7.16",
+        "product": "Sources: Session Recording",
+        "version": "7.16",
+        "checksum": "SHA-256 - 5e6a0127c127b19af851fd83dc2cb70b1918dc20ef21af84bf66efc02fb52916",
+        "date": "Feb 23, 2017",
         "dlnumber": "12292",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=12292&URL=https://downloads.citrix.com/12292/MMCFormsShim.zip",
         "filename": "MMCFormsShim.zip",
-        "type": "cvad"
+        "filetype": "zip",
+        "size": "18.1 KB",
+        "family": "cvad"
     },
     {
+        "edition": "XenApp 7.14 / XenDesktop 7.14",
+        "product": "XenApp 7.14.1 / XenDesktop 7.14.1",
         "version": "7.14",
-        "edition": "XenApp 7.14.x / XenDesktop 7.14.x",
-        "dlnumber": "13241",
-        "url": "https://secureportal.citrix.com/udl.asp?DLID=13241&URL=https://downloads.citrix.com/13241/Citrix_SCOM_Management_Bundle_for_XenApp_and_XenDesktop_2017_06_20.zip",
-        "filename": "Citrix_SCOM_Management_Bundle_for_XenApp_and_XenDesktop_2017_06_20.zip",
-        "type": "cvad"
-    },
-    {
-        "version": "7.14",
-        "edition": "XenApp 7.14.x / XenDesktop 7.14.x",
-        "dlnumber": "13187",
-        "url": "https://secureportal.citrix.com/udl.asp?DLID=13187&URL=https://downloads.citrix.com/13187/ProvisioningServices714.iso",
-        "filename": "ProvisioningServices714.iso",
-        "type": "cvad"
-    },
-    {
-        "version": "7.14",
-        "edition": "XenApp 7.14.x / XenDesktop 7.14.x",
+        "checksum": "SHA-256 - 59e6d1bb7468ab9bf96ed57ce1ad8101fb7226f47d1bfa61e7dc2da74560041d",
+        "date": "Jun 9, 2017",
         "dlnumber": "13167",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=13167&URL=https://downloads.citrix.com/13167/XenApp_and_XenDesktop_7_14_1.iso",
         "filename": "XenApp_and_XenDesktop_7_14_1.iso",
-        "type": "cvad"
+        "filetype": "iso",
+        "size": "2.46 GB",
+        "family": "cvad"
     },
     {
+        "edition": "XenApp 7.14 / XenDesktop 7.14",
+        "product": "Server OS Virtual Delivery Agent 7.14.1",
         "version": "7.14",
-        "edition": "XenApp 7.14.x / XenDesktop 7.14.x",
+        "checksum": "SHA-256 - 29837fdaa3b4f831055a9528be44f9208b99057d3addbacf3b70a1644df0054a",
+        "date": "Jun 9, 2017",
         "dlnumber": "13170",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=13170&URL=https://downloads.citrix.com/13170/VDAServerSetup_7.14.1.exe",
         "filename": "VDAServerSetup_7.14.1.exe",
-        "type": "cvad"
+        "filetype": "exe",
+        "size": "264 MB",
+        "family": "cvad"
     },
     {
+        "edition": "XenApp 7.14 / XenDesktop 7.14",
+        "product": "Desktop OS Virtual Delivery Agent 7.14.1",
         "version": "7.14",
-        "edition": "XenApp 7.14.x / XenDesktop 7.14.x",
+        "checksum": "SHA-256 - 998fb2a8bd145c713eb2ee97cc0430016ea8184ebce09c920b555064e7ba6f6a",
+        "date": "Jun 9, 2017",
         "dlnumber": "13171",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=13171&URL=https://downloads.citrix.com/13171/VDAWorkstationSetup_7.14.1.exe",
         "filename": "VDAWorkstationSetup_7.14.1.exe",
-        "type": "cvad"
+        "filetype": "exe",
+        "size": "364 MB",
+        "family": "cvad"
     },
     {
+        "edition": "XenApp 7.14 / XenDesktop 7.14",
+        "product": "Desktop OS Core Services Virtual Delivery Agent 7.14.1",
         "version": "7.14",
-        "edition": "XenApp 7.14.x / XenDesktop 7.14.x",
+        "checksum": "SHA-256 - 4dcd0a262fec67ad370d705bd76c412e4697ffede0a3cf0637af29c6751df902",
+        "date": "Jun 9, 2017",
         "dlnumber": "13172",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=13172&URL=https://downloads.citrix.com/13172/VDAWorkstationCoreSetup_7.14.1.exe",
         "filename": "VDAWorkstationCoreSetup_7.14.1.exe",
-        "type": "cvad"
+        "filetype": "exe",
+        "size": "279 MB",
+        "family": "cvad"
     },
     {
-        "version": "7.14",
-        "edition": "XenApp 7.14.x / XenDesktop 7.14.x",
-        "dlnumber": "13151",
-        "url": "https://secureportal.citrix.com/udl.asp?DLID=13151&URL=https://downloads.citrix.com/13151/Citrix-AppDNA.msi",
-        "filename": "Citrix-AppDNA.msi",
-        "type": "cvad"
-    },
-    {
-        "version": "7.14",
         "edition": "XenApp 7.14 / XenDesktop 7.14",
-        "dlnumber": "13167",
-        "url": "https://secureportal.citrix.com/udl.asp?DLID=13167&URL=https://downloads.citrix.com/13167/XenApp_and_XenDesktop_7_14_1.iso",
-        "filename": "XenApp_and_XenDesktop_7_14_1.iso",
-        "type": "cvad"
-    },
-    {
+        "product": "License Server - Version 11.14.0.1 Build 20104 for Windows",
         "version": "7.14",
-        "edition": "XenApp 7.14 / XenDesktop 7.14",
-        "dlnumber": "13170",
-        "url": "https://secureportal.citrix.com/udl.asp?DLID=13170&URL=https://downloads.citrix.com/13170/VDAServerSetup_7.14.1.exe",
-        "filename": "VDAServerSetup_7.14.1.exe",
-        "type": "cvad"
-    },
-    {
-        "version": "7.14",
-        "edition": "XenApp 7.14 / XenDesktop 7.14",
-        "dlnumber": "13171",
-        "url": "https://secureportal.citrix.com/udl.asp?DLID=13171&URL=https://downloads.citrix.com/13171/VDAWorkstationSetup_7.14.1.exe",
-        "filename": "VDAWorkstationSetup_7.14.1.exe",
-        "type": "cvad"
-    },
-    {
-        "version": "7.14",
-        "edition": "XenApp 7.14 / XenDesktop 7.14",
-        "dlnumber": "13172",
-        "url": "https://secureportal.citrix.com/udl.asp?DLID=13172&URL=https://downloads.citrix.com/13172/VDAWorkstationCoreSetup_7.14.1.exe",
-        "filename": "VDAWorkstationCoreSetup_7.14.1.exe",
-        "type": "cvad"
-    },
-    {
-        "version": "7.14",
-        "edition": "XenApp 7.14 / XenDesktop 7.14",
+        "checksum": "SHA-256 - bf680c110bd77c7d7fee4d4bb5aacd0ccc2b80c70a6a36f22f8f64a64c1adcfb",
+        "date": "May 23, 2017",
         "dlnumber": "9803",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=9803&URL=https://downloads.citrix.com/9803/Citrix_Licensing_11.14.0.1_BUILD_20104.zip",
         "filename": "Citrix_Licensing_11.14.0.1_BUILD_20104.zip",
-        "type": "cvad"
+        "filetype": "zip",
+        "size": "49.9 MB",
+        "family": "cvad"
     },
     {
-        "version": "7.14",
         "edition": "XenApp 7.14 / XenDesktop 7.14",
+        "product": "Profile Management 5.8",
+        "version": "7.14",
+        "checksum": "SHA-256 - 43f6ff0489dd09980b0478797d257ff10115b10d013036cce9cd1e88665f8b85",
+        "date": "May 23, 2017",
         "dlnumber": "13090",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=13090&URL=https://downloads.citrix.com/13090/ProfileMgmt-5.8.0.zip",
         "filename": "ProfileMgmt-5.8.0.zip",
-        "type": "cvad"
+        "filetype": "zip",
+        "size": "13.3 MB",
+        "family": "cvad"
     },
     {
-        "version": "7.14",
         "edition": "XenApp 7.14 / XenDesktop 7.14",
+        "product": "StoreFront 3.11",
+        "version": "7.14",
+        "checksum": "SHA-256 - f0ec9395092d2351128ba683a2e3c6662ae082b15a0f604983fbb3180aba79bb",
+        "date": "May 23, 2017",
         "dlnumber": "13091",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=13091&URL=https://downloads.citrix.com/13091/CitrixStoreFront-x64.exe",
         "filename": "CitrixStoreFront-x64.exe",
-        "type": "cvad"
+        "filetype": "exe",
+        "size": "48.5 MB",
+        "family": "cvad"
     },
     {
-        "version": "7.14",
         "edition": "XenApp 7.14 / XenDesktop 7.14",
+        "product": "Sources: Session Recording 7.14",
+        "version": "7.14",
+        "checksum": "SHA-256 - 5e6a0127c127b19af851fd83dc2cb70b1918dc20ef21af84bf66efc02fb52916",
+        "date": "May 23, 2017",
         "dlnumber": "12292",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=12292&URL=https://downloads.citrix.com/12292/MMCFormsShim.zip",
         "filename": "MMCFormsShim.zip",
-        "type": "cvad"
+        "filetype": "zip",
+        "size": "18.1 KB",
+        "family": "cvad"
     },
     {
-        "version": "7.13",
         "edition": "XenApp 7.13 / XenDesktop 7.13",
+        "product": "XenApp 7.13 / XenDesktop 7.13",
+        "version": "7.13",
+        "checksum": "SHA-256 - 832b52e64d5b23db6cbc88a4f50f479312ce15f8cac803631447b92294212479",
+        "date": "Feb 23, 2017",
         "dlnumber": "12763",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=12763&URL=https://downloads.citrix.com/12763/XenApp_and_XenDesktop_7_13.iso",
         "filename": "XenApp_and_XenDesktop_7_13.iso",
-        "type": "cvad"
+        "filetype": "iso",
+        "size": "2.33 GB",
+        "family": "cvad"
     },
     {
-        "version": "7.13",
         "edition": "XenApp 7.13 / XenDesktop 7.13",
+        "product": "Server OS Virtual Delivery Agent 7.13",
+        "version": "7.13",
+        "checksum": "SHA-256 - ed03c6a0a3bd18cdcbdab08f5330e5b8b5a6df64632e443bdf459eb53c0ed696",
+        "date": "Feb 23, 2017",
         "dlnumber": "12766",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=12766&URL=https://downloads.citrix.com/12766/VDAServerSetup_7.13.exe",
         "filename": "VDAServerSetup_7.13.exe",
-        "type": "cvad"
+        "filetype": "exe",
+        "size": "300 MB",
+        "family": "cvad"
     },
     {
-        "version": "7.13",
         "edition": "XenApp 7.13 / XenDesktop 7.13",
+        "product": "Desktop OS Virtual Delivery Agent 7.13",
+        "version": "7.13",
+        "checksum": "SHA-256 - e174179df471b12ee34a4209148b46e945ea7dda63776ae65c9bb5dfb4746290",
+        "date": "Feb 23, 2017",
         "dlnumber": "12767",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=12767&URL=https://downloads.citrix.com/12767/VDAWorkstationSetup_7.13.exe",
         "filename": "VDAWorkstationSetup_7.13.exe",
-        "type": "cvad"
+        "filetype": "exe",
+        "size": "394 MB",
+        "family": "cvad"
     },
     {
-        "version": "7.13",
         "edition": "XenApp 7.13 / XenDesktop 7.13",
+        "product": "Desktop OS Core Services Virtual Delivery Agent 7.13",
+        "version": "7.13",
+        "checksum": "SHA-256 - b5ee49ba2722ff1421ef7907047b6b945649faa3d6c62ce101fe741dbd95d85a",
+        "date": "Feb 23, 2017",
         "dlnumber": "12768",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=12768&URL=https://downloads.citrix.com/12768/VDAWorkstationCoreSetup_7.13.exe",
         "filename": "VDAWorkstationCoreSetup_7.13.exe",
-        "type": "cvad"
+        "filetype": "exe",
+        "size": "310 MB",
+        "family": "cvad"
     },
     {
-        "version": "7.13",
         "edition": "XenApp 7.13 / XenDesktop 7.13",
+        "product": "License Server - Version 11.14.0.1 Build 19004 for Windows",
+        "version": "7.13",
+        "checksum": "SHA-256 - ee8a24ec2c2409804f0d4b8b06fdf9d3451c81345e490bb586dc2ef473d94793",
+        "date": "Feb 23, 2017",
         "dlnumber": "9803",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=9803&URL=https://downloads.citrix.com/9803/Citrix_Licensing_11.14.0.1_BUILD_19005.zip",
         "filename": "Citrix_Licensing_11.14.0.1_BUILD_19005.zip",
-        "type": "cvad"
+        "filetype": "zip",
+        "size": "50.3 MB",
+        "family": "cvad"
     },
     {
-        "version": "7.13",
         "edition": "XenApp 7.13 / XenDesktop 7.13",
+        "product": "Profile Management 5.7",
+        "version": "7.13",
+        "checksum": "SHA-256 - 13639ab910a5c52374cd23a4deb89e02b52cdeeb480704cc0ff02e2c84de9689",
+        "date": "Feb 23, 2017",
         "dlnumber": "12769",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=12769&URL=https://downloads.citrix.com/12769/ProfileMgmt-5.7.0.zip",
         "filename": "ProfileMgmt-5.7.0.zip",
-        "type": "cvad"
+        "filetype": "zip",
+        "size": "13.3 MB",
+        "family": "cvad"
     },
     {
-        "version": "7.13",
         "edition": "XenApp 7.13 / XenDesktop 7.13",
+        "product": "StoreFront 3.9",
+        "version": "7.13",
+        "checksum": "SHA-256 - 7e339607826a3f5159c4a1e9291880914a2d7c55606f01e3b045a6ea7519cd67",
+        "date": "Feb 23, 2017",
         "dlnumber": "12770",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=12770&URL=https://downloads.citrix.com/12770/CitrixStoreFront-x64.exe",
         "filename": "CitrixStoreFront-x64.exe",
-        "type": "cvad"
+        "filetype": "exe",
+        "size": "45.6 MB",
+        "family": "cvad"
     },
     {
-        "version": "7.12",
         "edition": "XenApp 7.12 / XenDesktop 7.12",
+        "product": "XenApp 7.12 / XenDesktop 7.12",
+        "version": "7.12",
+        "checksum": "SHA-256 - 6a1ad5192911e1368d3408c40bf780329823676305abd971526ef9c423c5e53f",
+        "date": "Dec 7, 2016",
         "dlnumber": "12444",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=12444&URL=https://downloads.citrix.com/12444/XenApp_and_XenDesktop_7_12.iso",
         "filename": "XenApp_and_XenDesktop_7_12.iso",
-        "type": "cvad"
+        "filetype": "iso",
+        "size": "2.19 GB",
+        "family": "cvad"
     },
     {
-        "version": "7.12",
         "edition": "XenApp 7.12 / XenDesktop 7.12",
+        "product": "Server OS Virtual Delivery Agent 7.12",
+        "version": "7.12",
+        "checksum": "SHA-256 - 4d21e43282cda17b9ef900307f431a05637b054f6cf9dd1c2ca602f0ab344314",
+        "date": "Dec 7, 2016",
         "dlnumber": "12447",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=12447&URL=https://downloads.citrix.com/12447/VDAServerSetup_7.12.exe",
         "filename": "VDAServerSetup_7.12.exe",
-        "type": "cvad"
+        "filetype": "exe",
+        "size": "313 MB",
+        "family": "cvad"
     },
     {
-        "version": "7.12",
         "edition": "XenApp 7.12 / XenDesktop 7.12",
+        "product": "Desktop OS Virtual Delivery Agent 7.12",
+        "version": "7.12",
+        "checksum": "SHA-256 - 8e0f0336c9f1356607968a7afe740cb23ba6a86ab783c99414df3ec5d308f376",
+        "date": "Dec 7, 2016",
         "dlnumber": "12502",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=12502&URL=https://downloads.citrix.com/12502/VDAWorkstationSetup_7.12.exe",
         "filename": "VDAWorkstationSetup_7.12.exe",
-        "type": "cvad"
+        "filetype": "exe",
+        "size": "406 MB",
+        "family": "cvad"
     },
     {
-        "version": "7.12",
         "edition": "XenApp 7.12 / XenDesktop 7.12",
+        "product": "Desktop OS Core Services Virtual Delivery Agent 7.12",
+        "version": "7.12",
+        "checksum": "SHA-256 - 376fe315d3ca0cedde9314567ef804e6f2e09beb57ed8e266cd1c4a7ea2d690e",
+        "date": "Dec 7, 2016",
         "dlnumber": "12448",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=12448&URL=https://downloads.citrix.com/12448/VDAWorkstationCoreSetup_7.12.exe",
         "filename": "VDAWorkstationCoreSetup_7.12.exe",
-        "type": "cvad"
+        "filetype": "exe",
+        "size": "323 MB",
+        "family": "cvad"
     },
     {
-        "version": "7.12",
         "edition": "XenApp 7.12 / XenDesktop 7.12",
+        "product": "License Server - Version 11.14.0.1 Build 18001 for Windows",
+        "version": "7.12",
+        "checksum": "SHA-256 - 6c56f315759f40fa301cfa0e918d8d88033571a291fa371a7d577f9f30ec1f62",
+        "date": "Dec 7, 2016",
         "dlnumber": "9803",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=9803&URL=https://downloads.citrix.com/9803/Citrix_Licensing_11.14.0.1_BUILD_18001.zip",
         "filename": "Citrix_Licensing_11.14.0.1_BUILD_18001.zip",
-        "type": "cvad"
+        "filetype": "zip",
+        "size": "43.9 MB",
+        "family": "cvad"
     },
     {
-        "version": "7.12",
         "edition": "XenApp 7.12 / XenDesktop 7.12",
+        "product": "Profile Management 5.6",
+        "version": "7.12",
+        "checksum": "SHA-256 - d1febc2268596f031bcdf95569706a6bcd25d22d489ef06e274e91bad1e6e222",
+        "date": "Dec 7, 2016",
         "dlnumber": "12449",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=12449&URL=https://downloads.citrix.com/12449/ProfileMgmt-5.6.0.zip",
         "filename": "ProfileMgmt-5.6.0.zip",
-        "type": "cvad"
+        "filetype": "zip",
+        "size": "13.2 MB",
+        "family": "cvad"
     },
     {
-        "version": "7.12",
         "edition": "XenApp 7.12 / XenDesktop 7.12",
+        "product": "StoreFront 3.8",
+        "version": "7.12",
+        "checksum": "SHA-256 - 2fc4e84eade6c95abb12f1bbdb463bea96bab7ed72a3f320ce76866121793857",
+        "date": "Dec 7, 2016",
         "dlnumber": "12450",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=12450&URL=https://downloads.citrix.com/12450/CitrixStoreFront-x64.exe",
         "filename": "CitrixStoreFront-x64.exe",
-        "type": "cvad"
+        "filetype": "exe",
+        "size": "42.4 MB",
+        "family": "cvad"
     },
     {
-        "version": "7.11",
         "edition": "XenApp 7.11 / XenDesktop 7.11",
+        "product": "XenApp 7.11 / XenDesktop 7.11",
+        "version": "7.11",
+        "checksum": "MD5 - 789a0b628690c11510fe8a2baffa943c",
+        "date": "Sep 14, 2016",
         "dlnumber": "12279",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=12279&URL=https://downloads.citrix.com/12279/XenApp_and_XenDesktop_7_11.iso",
         "filename": "XenApp_and_XenDesktop_7_11.iso",
-        "type": "cvad"
+        "filetype": "iso",
+        "size": "2.90 GB",
+        "family": "cvad"
     },
     {
-        "version": "7.11",
         "edition": "XenApp 7.11 / XenDesktop 7.11",
+        "product": "Server OS Virtual Delivery Agent 7.11",
+        "version": "7.11",
+        "checksum": "MD5 - 231f472caa1d73da231c57a03867ca71",
+        "date": "Sep 14, 2016",
         "dlnumber": "12282",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=12282&URL=https://downloads.citrix.com/12282/VDAServerSetup_7.11.exe",
         "filename": "VDAServerSetup_7.11.exe",
-        "type": "cvad"
+        "filetype": "exe",
+        "size": "308 MB",
+        "family": "cvad"
     },
     {
-        "version": "7.11",
         "edition": "XenApp 7.11 / XenDesktop 7.11",
+        "product": "Desktop OS Virtual Delivery Agent 7.11",
+        "version": "7.11",
+        "checksum": "MD5 - 605097b2fe43cbb9de860de2fef26c13",
+        "date": "Sep 14, 2016",
         "dlnumber": "12283",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=12283&URL=https://downloads.citrix.com/12283/VDAWorkstationSetup_7.11.exe",
         "filename": "VDAWorkstationSetup_7.11.exe",
-        "type": "cvad"
+        "filetype": "exe",
+        "size": "396 MB",
+        "family": "cvad"
     },
     {
-        "version": "7.11",
         "edition": "XenApp 7.11 / XenDesktop 7.11",
+        "product": "License Server - Version 11.14.0.1 for Windows",
+        "version": "7.11",
+        "checksum": "MD5 - 217879e3d5bbff260a1fa501a3ce3a93",
+        "date": "Sep 14, 2016",
         "dlnumber": "9803",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=9803&URL=https://downloads.citrix.com/9803/Citrix_Licensing_11.14.0.1_Build_17005.zip",
         "filename": "Citrix_Licensing_11.14.0.1_Build_17005.zip",
-        "type": "cvad"
+        "filetype": "zip",
+        "size": "44.0 MB",
+        "family": "cvad"
     },
     {
-        "version": "7.11",
         "edition": "XenApp 7.11 / XenDesktop 7.11",
+        "product": "Profile Management 5.5",
+        "version": "7.11",
+        "checksum": "MD5 - ddecea735a8ca4c3ec40dd6d586475e1",
+        "date": "Sep 14, 2016",
         "dlnumber": "12284",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=12284&URL=https://downloads.citrix.com/12284/Profile_Mgmt-5.5.0.zip",
         "filename": "Profile_Mgmt-5.5.0.zip",
-        "type": "cvad"
+        "filetype": "zip",
+        "size": "6.15 MB",
+        "family": "cvad"
     },
     {
-        "version": "7.11",
         "edition": "XenApp 7.11 / XenDesktop 7.11",
+        "product": "StoreFront 3.7",
+        "version": "7.11",
+        "checksum": "MD5 - 51cc4f2e4422b6ed31eb47da9efd542c",
+        "date": "Sep 14, 2016",
         "dlnumber": "12285",
         "url": "https://secureportal.citrix.com/udl.asp?DLID=12285&URL=https://downloads.citrix.com/12285/CitrixStoreFront-x64.exe",
         "filename": "CitrixStoreFront-x64.exe",
-        "type": "cvad"
+        "filetype": "exe",
+        "size": "42.6 MB",
+        "family": "cvad"
     }
 ]
