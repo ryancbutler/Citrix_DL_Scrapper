@@ -4,6 +4,8 @@ Python script the scraps Citrix.com for needed download info for download script
 
 ## How to use
 
+From scrapper directory
+
 1. Install Chrome
 2. Install Chromedriver <https://chromedriver.chromium.org/downloads>
 3. Install requirements `pip3 install -r requirements.txt`

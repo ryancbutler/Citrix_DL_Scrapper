@@ -5,8 +5,6 @@
 from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-#from selenium.webdriver.chrome.options import Options
-#from selenium.webdriver.common.by import By
 from bs4 import BeautifulSoup
 import re
 import csv
@@ -59,7 +57,7 @@ dls_selector = soup.find_all(
 for dl in dls_selector:
     dls.append(dl['href'])
 
-f = open('ctx_dls.csv', 'w', newline='', encoding='utf-8')
+f = open('../ctx_dls.csv', 'w', newline='', encoding='utf-8')
 writer = csv.writer(f)
 writer.writerow(['version', 'edition', 'dlnumber', 'url', 'filename', 'type'])
 
@@ -81,7 +79,7 @@ for ctxDL in dls:
         ctxDLS.append({"version": version[0], "edition": title,
                       "dlnumber": m[0], "url": dl['rel'][0], "filename": exename, "type": 'cvad'})
 
-with open('ctx_dls.json', 'w', encoding='utf-8') as f:
+with open('../ctx_dls.json', 'w', encoding='utf-8') as f:
     json.dump(ctxDLS, f, ensure_ascii=False, indent=4)
 
 # Close CSV
