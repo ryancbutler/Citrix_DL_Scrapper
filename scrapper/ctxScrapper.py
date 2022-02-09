@@ -11,9 +11,22 @@ import csv
 import json
 import os
 
+
 options = webdriver.ChromeOptions()
 options.headless = True
 options.add_experimental_option("detach", True)
+# Disabling warning that browser is controlled by software.
+options.add_experimental_option("excludeSwitches", ['enable-automation'])
+options.add_argument('--disable-infobars')
+options.add_argument('--no-sandbox')
+options.add_argument('--disable-dev-shm-usage')
+options.add_argument('--disable-gpu')
+options.add_argument('--disable-extensions')
+options.add_argument('--no-first-run')
+options.add_argument('--ignore-certificate-errors')
+options.add_argument('--disable-client-side-phishing-detection')
+options.add_argument('--allow-running-insecure-content')
+options.add_argument('--disable-web-security')
 
 # Citrix login
 username = os.environ.get('ctxuser')
@@ -58,7 +71,7 @@ dls_selector = soup.find_all(
 for dl in dls_selector:
     dls.append(dl['href'])
 
-f = open('../ctx_dls.csv', 'w', newline='', encoding='utf-8')
+f = open('./ctx_dls.csv', 'w', newline='', encoding='utf-8')
 writer = csv.writer(f)
 writer.writerow(['edition', 'product', 'version', 'checksum',
                 'date', 'dlnumber', 'url', 'filename', 'filetype', 'size', 'family'])
@@ -101,7 +114,7 @@ for ctxDL in dls:
                            "version": version[0], "checksum": dl_checksum, "date": dl_date, "dlnumber": dlid, "url": dl_url, "filename": filename, "filetype": filetype, "size": dl_size, "family": 'cvad'})
 
 
-with open('../ctx_dls.json', 'w', encoding='utf-8') as f:
+with open('./ctx_dls.json', 'w', encoding='utf-8') as f:
     json.dump(ctxDLS, f, ensure_ascii=False, indent=4)
 
 # Close CSV
