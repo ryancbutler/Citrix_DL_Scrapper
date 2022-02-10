@@ -1,0 +1,27 @@
+name: release
+
+on:
+  workflow_dispatch:
+
+jobs:
+  login:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v2
+      - name: Login to GitHub Container Registry
+        uses: docker/login-action@v1
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+      - name: Run Scrapper
+        run: docker run -e ctxuser -e ctxpass -v ${PWD}/data:/data ghcr.io/ryancbutler/ctxscrapper
+        env:
+          ctxuser: ${{ secrets.CTXUSER }}
+          ctxpass: ${{ secrets.CTXPASS }}
+      - name: Copy ctx_dls to root
+        run: mv ./data/ctx_dls.* ./
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Updated DL files

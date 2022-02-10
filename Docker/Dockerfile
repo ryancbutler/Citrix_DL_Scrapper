@@ -1,4 +1,5 @@
 FROM python:3.9
+LABEL org.opencontainers.image.source https://github.com/ryancbutler/Citrix_DL_Scrapper
 
 COPY /scrapper /app
 WORKDIR /app
