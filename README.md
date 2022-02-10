@@ -20,9 +20,10 @@ export ctxpass="MYPASSWORD"
 
 ## Docker
 
-``
+```bash
 export ctxuser="MYUSERNAME"
 export ctxpass="MYPASSWORD"
 
 docker build . -t ctxscrapper -f ./Docker/Dockerfile
 docker run -e ctxuser -e ctxpass -v ${PWD}/data:/data ctxscrapper
+```
