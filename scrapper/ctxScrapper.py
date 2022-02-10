@@ -30,15 +30,39 @@ def parse_page(page_source, family):
         soup = BeautifulSoup(page_source, 'html.parser')
         dl_sections = soup.find_all("div", {"class": "ctx-download-entry"})
         for dl_section in dl_sections:
-            dl_type = (dl_section.find("span", {"class": "dl-type"})).text
+            print('https://www.citrix.com' + ctxDL)
+            dl_type = (dl_section.find("span", {"class": "dl-type"}))
+            if dl_type:
+                dl_type = dl_type.text
+            else:
+                dl_type = "NONE"
+
             if dl_type == "(.htm)":
                 print("HTML DL TYPE FOUND. Skipping")
             else:
-                dl_product = (dl_section.find("h4")).text
+                dl_product = (dl_section.find("h4"))
+                if dl_product:
+                    dl_product = dl_product.text
+                else:
+                    dl_product = "NONE"
+
+                print(dl_product)
                 dl_url = dl_section.a['rel'][0]
-                dl_size = (dl_section.find("span", {"class": "dl-size"})).text
+
+                dl_size = (dl_section.find("span", {"class": "dl-size"}))
+                if dl_size:
+                    dl_size = dl_size.text
+                else:
+                    dl_size = "NONE"
+
                 dl_date = (dl_section.find(
-                    "span", {"class": "ctx-dl-langs"})).text
+                    "span", {"class": "ctx-dl-langs"}))
+
+                if dl_date:
+                    dl_date = dl_date.text
+                else:
+                    dl_date = "NONE"
+
                 dl_checksum_list = dl_section.find(
                     "ul", {"class": "ctx-checksum-list"})
 
@@ -49,33 +73,49 @@ def parse_page(page_source, family):
 
                 filename = (dl_url.split('/')[-1])
                 edition = (driver.title).replace(", All Editions - Citrix", "")
-                dlid = re.findall('(?<=DLID=)(.*)(?=&)', dl_url)[0]
 
-                # Versions with multiple matches
-                if re.search('(\d{4})', driver.title):
-                    version = re.search('(\d{4})', driver.title)
+                dlid = (re.search(
+                    '(?<=DLID=)(.*)(?=&)|(?<=DLCID=)(.*)(?=&)', dl_url))
+                if dlid:
+                    dlid = dlid.group()
                 else:
-                    version = re.search('(7\.*\d*)', driver.title)
+                    dlid = "NONE"
+                    print("DLID NOT FOUND")
 
-                filetype = filename.split('.')[-1]
+                if dlid != "NONE":
+                    # Versions with multiple matches
+                    if family == "adc":
+                        version = re.search(
+                            '(\d{1,}\.\d+)( Build )(\d\d*\.\d{1,})|(\d{1,}\.\d{0,})|(\d{1,})', dl_product)
+                    else:
+                        if re.search('(\d{4})', driver.title):
+                            version = re.search('(\d{4})', driver.title)
+                        else:
+                            version = re.search('(7\.*\d*)', driver.title)
 
-                # Debug
-                # print(dl_product)
-                # print(edition)
-                # print(dl_product)
-                # print(version[0])
-                # print(dl_checksum)
-                # print(dl_date)
-                # print(dlid)
-                # print(filename)
-                # print(filetype)
-                # print(dl_size)
-                # print(family)
+                    if version:
+                        version = version.group()
+                    else:
+                        version = "NONE"
 
-                temp = ({"edition": edition, "product": dl_product,
-                         "version": version[0], "checksum": dl_checksum, "date": dl_date, "dlnumber": dlid, "url": dl_url, "filename": filename, "filetype": filetype, "size": dl_size, "family": family})
+                    filetype = filename.split('.')[-1]
 
-                ctxDLS.append(temp)
+                    # Debug
+                    print(dl_product)
+                    print(edition)
+                    print(dl_product)
+                    print(version)
+                    print(dl_checksum)
+                    print(dl_date)
+                    print(dlid)
+                    print(filename)
+                    print(filetype)
+                    print(dl_size)
+                    print(family)
+                    temp = ({"edition": edition, "product": dl_product,
+                            "version": version, "checksum": dl_checksum, "date": dl_date, "dlnumber": dlid, "url": dl_url, "filename": filename, "filetype": filetype, "size": dl_size, "family": family})
+
+                    ctxDLS.append(temp)
     return ctxDLS
 
 
@@ -139,6 +179,14 @@ WebDriverWait(driver,
               10).until(EC.title_is("Download Citrix Provisioning - Citrix"))
 
 final += parse_page(driver.page_source, "pvs")
+
+driver.get(
+    'https://www.citrix.com/downloads/citrix-adc/'
+)
+WebDriverWait(driver,
+              10).until(EC.title_is("Download Citrix ADC - Citrix"))
+
+final += parse_page(driver.page_source, "adc")
 
 with open('./ctx_dls.json', 'w', encoding='utf-8') as f:
     json.dump(final, f, ensure_ascii=False, indent=4)
