@@ -1,7 +1,9 @@
-# Scraps Citrix.com for needed download information to be used for https://github.com/ryancbutler/Citrix/tree/master/XenDesktop/AutoDownload
+#!/usr/bin/env python3
+
+# Scrapes Citrix.com for needed download information to be used for https://github.com/ryancbutler/Citrix/tree/master/XenDesktop/AutoDownload
 # Ryan Butler 2/8/2022 @ryan_c_butler
 # Needs Chrome and ChromeDriver to be installed
-#!/usr/bin/env python3
+
 from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -11,9 +13,87 @@ import csv
 import json
 import os
 
+
+def parse_page(page_source, family):
+    soup = BeautifulSoup(page_source, 'html.parser')
+    dls = []
+    dls_selector = soup.find_all(
+        "a", {"href": re.compile('^(?!.*x\.html)(?=.*downloads\/\w)(?!.*\.rss).*')})
+
+    for dl in dls_selector:
+        dls.append(dl['href'])
+
+    ctxDLS = []
+    for ctxDL in dls:
+        driver.get('https://www.citrix.com' + ctxDL)
+        page_source = driver.page_source
+        soup = BeautifulSoup(page_source, 'html.parser')
+        dl_sections = soup.find_all("div", {"class": "ctx-download-entry"})
+        for dl_section in dl_sections:
+            dl_type = (dl_section.find("span", {"class": "dl-type"})).text
+            if dl_type == "(.htm)":
+                print("HTML DL TYPE FOUND. Skipping")
+            else:
+                dl_product = (dl_section.find("h4")).text
+                dl_url = dl_section.a['rel'][0]
+                dl_size = (dl_section.find("span", {"class": "dl-size"})).text
+                dl_date = (dl_section.find(
+                    "span", {"class": "ctx-dl-langs"})).text
+                dl_checksum_list = dl_section.find(
+                    "ul", {"class": "ctx-checksum-list"})
+
+                if dl_checksum_list:
+                    dl_checksum = (dl_checksum_list.find("li")).text
+                else:
+                    dl_checksum = "NONE"
+
+                filename = (dl_url.split('/')[-1])
+                edition = (driver.title).replace(", All Editions - Citrix", "")
+                dlid = re.findall('(?<=DLID=)(.*)(?=&)', dl_url)[0]
+
+                # Versions with multiple matches
+                if re.search('(\d{4})', driver.title):
+                    version = re.search('(\d{4})', driver.title)
+                else:
+                    version = re.search('(7\.*\d*)', driver.title)
+
+                filetype = filename.split('.')[-1]
+
+                # Debug
+                # print(dl_product)
+                # print(edition)
+                # print(dl_product)
+                # print(version[0])
+                # print(dl_checksum)
+                # print(dl_date)
+                # print(dlid)
+                # print(filename)
+                # print(filetype)
+                # print(dl_size)
+                # print(family)
+
+                temp = ({"edition": edition, "product": dl_product,
+                         "version": version[0], "checksum": dl_checksum, "date": dl_date, "dlnumber": dlid, "url": dl_url, "filename": filename, "filetype": filetype, "size": dl_size, "family": family})
+
+                ctxDLS.append(temp)
+    return ctxDLS
+
+
 options = webdriver.ChromeOptions()
 options.headless = True
 options.add_experimental_option("detach", True)
+# Disabling warning that browser is controlled by software.
+options.add_experimental_option("excludeSwitches", ['enable-automation'])
+options.add_argument('--disable-infobars')
+options.add_argument('--no-sandbox')
+options.add_argument('--disable-dev-shm-usage')
+options.add_argument('--disable-gpu')
+options.add_argument('--disable-extensions')
+options.add_argument('--no-first-run')
+options.add_argument('--ignore-certificate-errors')
+options.add_argument('--disable-client-side-phishing-detection')
+options.add_argument('--allow-running-insecure-content')
+options.add_argument('--disable-web-security')
 
 # Citrix login
 username = os.environ.get('ctxuser')
@@ -48,62 +128,26 @@ driver.find_element_by_link_text(
 
 WebDriverWait(driver,
               10).until(EC.title_is("Download Product Software - Citrix"))
-page_source = driver.page_source
 
-soup = BeautifulSoup(page_source, 'html.parser')
-dls = []
-dls_selector = soup.find_all(
-    "a", {"href": re.compile('^(?!.*x\.html)(?=.*downloads\/c)(?!.*\.rss).*')})
+final = []
+final += parse_page(driver.page_source, "cvad")
 
-for dl in dls_selector:
-    dls.append(dl['href'])
+driver.get(
+    'https://www.citrix.com/downloads/provisioning-services/'
+)
+WebDriverWait(driver,
+              10).until(EC.title_is("Download Citrix Provisioning - Citrix"))
 
-f = open('../ctx_dls.csv', 'w', newline='', encoding='utf-8')
-writer = csv.writer(f)
-writer.writerow(['edition', 'product', 'version', 'checksum',
-                'date', 'dlnumber', 'url', 'filename', 'filetype', 'size', 'family'])
+final += parse_page(driver.page_source, "pvs")
 
-ctxDLS = []
-for ctxDL in dls:
-    driver.get('https://www.citrix.com' + ctxDL)
-    page_source = driver.page_source
-    soup = BeautifulSoup(page_source, 'html.parser')
-    dl_sections = soup.find_all("div", {"class": "ctx-download-entry"})
-    for dl_section in dl_sections:
-        dl_type = (dl_section.find("span", {"class": "dl-type"})).text
-        if dl_type == "(.htm)":
-            print("HTML DL TYPE FOUND. Skipping")
-        else:
-            dl_product = (dl_section.find("h4")).text
-            dl_url = dl_section.a['rel'][0]
-            dl_size = (dl_section.find("span", {"class": "dl-size"})).text
-            dl_date = (dl_section.find("span", {"class": "ctx-dl-langs"})).text
-            dl_checksum_list = dl_section.find(
-                "ul", {"class": "ctx-checksum-list"})
+with open('./ctx_dls.json', 'w', encoding='utf-8') as f:
+    json.dump(final, f, ensure_ascii=False, indent=4)
 
-            if dl_checksum_list is None:
-                dl_checksum = "NONE"
-            else:
-                dl_checksum = (dl_checksum_list.find("li")).text
+keys = final[0].keys()
+a_file = open('./ctx_dls.csv', 'w', newline='', encoding='utf-8')
+dict_writer = csv.DictWriter(a_file, keys)
+dict_writer.writeheader()
+dict_writer.writerows(final)
+a_file.close()
 
-            filename = (dl_url.split('/')[-1])
-            edition = (driver.title).replace(", All Editions - Citrix", "")
-            dlid = re.findall('(?<=DLID=)(.*)(?=&)', dl_url)[0]
-            version = re.search('((7\.)\d\d)|(\d\d\d\d)',
-                                driver.title)
-            filetype = filename.split('.')[-1]
-
-            print(dl_product)
-            writer.writerow(
-                [edition, dl_product, version[0], dl_checksum, dl_date, dlid, dl_url, filename, filetype, dl_size, 'cvad'])
-
-            ctxDLS.append({"edition": edition, "product": dl_product,
-                           "version": version[0], "checksum": dl_checksum, "date": dl_date, "dlnumber": dlid, "url": dl_url, "filename": filename, "filetype": filetype, "size": dl_size, "family": 'cvad'})
-
-
-with open('../ctx_dls.json', 'w', encoding='utf-8') as f:
-    json.dump(ctxDLS, f, ensure_ascii=False, indent=4)
-
-# Close CSV
-f.close()
 driver.quit()
