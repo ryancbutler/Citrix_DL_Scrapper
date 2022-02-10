@@ -12,6 +12,7 @@ jobs:
       - name: Login to GitHub Package Registry and run
         run: |
           echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u "${{ github.actor }}" --password-stdin
+          docker pull ghcr.io/ryancbutler/ctxscrapper
           docker run -e ctxuser -e ctxpass -v ${PWD}/data:/data ghcr.io/ryancbutler/ctxscrapper
         env:
           ctxuser: ${{ secrets.CTXUSER }}
