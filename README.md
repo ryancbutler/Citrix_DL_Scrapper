@@ -17,3 +17,12 @@ export ctxpass="MYPASSWORD"
 ```
 
 5. Run `python3 ctxScrapper.py`
+
+## Docker
+
+``
+export ctxuser="MYUSERNAME"
+export ctxpass="MYPASSWORD"
+
+docker build . -t ctxscrapper -f ./Docker/Dockerfile
+docker run -e ctxuser -e ctxpass -v ${PWD}/data:/data ctxscrapper

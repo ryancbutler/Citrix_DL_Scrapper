@@ -80,7 +80,7 @@ def parse_page(page_source, family):
 
 
 options = webdriver.ChromeOptions()
-#options.headless = True
+options.headless = True
 options.add_experimental_option("detach", True)
 # Disabling warning that browser is controlled by software.
 options.add_experimental_option("excludeSwitches", ['enable-automation'])
