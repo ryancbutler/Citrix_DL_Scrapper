@@ -9,10 +9,10 @@ jobs:
     steps:
       - name: Check out the repo
         uses: actions/checkout@v2
-      - name: Login to GitHub Package Registry
-        run: echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u "${{ github.actor }}" --password-stdin
-      - name: Run Scrapper
-        run: docker run -e ctxuser -e ctxpass -v ${PWD}/data:/data ghcr.io/ryancbutler/ctxscrapper
+      - name: Login to GitHub Package Registry and run
+        run: |
+          echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u "${{ github.actor }}" --password-stdin
+          docker run -e ctxuser -e ctxpass -v ${PWD}/data:/data ghcr.io/ryancbutler/ctxscrapper
         env:
           ctxuser: ${{ secrets.CTXUSER }}
           ctxpass: ${{ secrets.CTXPASS }}
