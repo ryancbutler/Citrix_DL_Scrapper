@@ -148,6 +148,7 @@ if password is None:
 # Chrome driver https://chromedriver.chromium.org/downloads
 driver = webdriver.Chrome(options=options)
 
+print("Begining LOGIN")
 driver.get(
     'https://identity.citrix.com/Utility/STS/Sign-In?ReturnUrl=%2fUtility%2fSTS%2fsaml20%2fpost-binding-response'
 )
@@ -156,8 +157,8 @@ driver.get(
 driver.find_element_by_id("userName").send_keys(username)
 driver.find_element_by_id("password").send_keys(password)
 driver.find_element_by_id("idSubmit").click()
-
 # Strange workaround for authentication
+print("Waiting for login")
 driver.get(
     'https://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/product-software/'
 )
@@ -169,6 +170,7 @@ driver.find_element_by_link_text(
 WebDriverWait(driver,
               10).until(EC.title_is("Download Product Software - Citrix"))
 
+print("Begining PARSING")
 final = []
 final += parse_page(driver.page_source, "cvad")
 
@@ -188,6 +190,7 @@ WebDriverWait(driver,
 
 final += parse_page(driver.page_source, "adc")
 
+print("Writing files")
 with open('./ctx_dls.json', 'w', encoding='utf-8') as f:
     json.dump(final, f, ensure_ascii=False, indent=4)
 
