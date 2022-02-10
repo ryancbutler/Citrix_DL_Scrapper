@@ -4,17 +4,13 @@ on:
   workflow_dispatch:
 
 jobs:
-  login:
+  update-dls:
     runs-on: ubuntu-latest
     steps:
       - name: Check out the repo
         uses: actions/checkout@v2
-      - name: Login to GitHub Container Registry
-        uses: docker/login-action@v1
-        with:
-          registry: ghcr.io
-          username: ${{ github.actor }}
-          password: ${{ secrets.GITHUB_TOKEN }}
+      - name: Login to GitHub Package Registry
+        run: echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u "${{ github.actor }}" --password-stdin
       - name: Run Scrapper
         run: docker run -e ctxuser -e ctxpass -v ${PWD}/data:/data ghcr.io/ryancbutler/ctxscrapper
         env:
