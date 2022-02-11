@@ -23,8 +23,8 @@ jobs:
         run: mv ./data/ctx_dls.* ./
       - name: Verify JSON
         run: |
-          apt-get update
-          apt-get install jq -y
+          sudo apt-get update
+          sudo apt-get install jq -y
 
           families=$(jq -M '. |= unique_by(.family)' ctx_dls.json )
 
