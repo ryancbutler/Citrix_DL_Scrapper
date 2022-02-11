@@ -21,6 +21,35 @@ jobs:
           ctxpass: ${{ secrets.CTXPASS }}
       - name: Copy ctx_dls to root
         run: mv ./data/ctx_dls.* ./
+      - name: Verify JSON
+        run: |
+          apt-get update
+          apt-get install jq -y
+
+          families=$(jq -M '. |= unique_by(.family)' ctx_dls.json )
+
+          if [ -z "$families" ]; then
+              echo "Can't load JSON"
+              exit 1
+          fi
+
+          cvad=$families|jq -r '.[]|select(.family | startswith("cvad"))'
+          if [ -z "$cvad" ]; then
+              echo "No cvad family found in json!"
+              exit 1
+          fi
+
+          adc=$families|jq -r '.[]|select(.family | startswith("pvs"))'
+          if [ -z "$pvs" ]; then
+              echo "No pvs family found in json!"
+              exit 1
+          fi
+
+          pvs=$families|jq -r '.[]|select(.family | startswith("adc"))'
+          if [ -z "$adc" ]; then
+              echo "No adc family found in json!"
+              exit 1
+          fi
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Updated DL files
