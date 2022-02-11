@@ -134,6 +134,7 @@ options.add_argument('--ignore-certificate-errors')
 options.add_argument('--disable-client-side-phishing-detection')
 options.add_argument('--allow-running-insecure-content')
 options.add_argument('--disable-web-security')
+options.add_argument("--log-level=3")
 
 # Citrix login
 username = os.environ.get('ctxuser')
