@@ -12,7 +12,7 @@ jobs:
       - name: Check out the repo
         uses: actions/checkout@v2
       - name: Copy script to data
-        run: cp ./ctxScrapper.py ./data/
+        run: cp ./scrapper/ctxScrapper.py ./data/
       - name: Login to GitHub Package Registry and run
         run: |
           echo "${{ secrets.PATOKEN }}" | docker login ghcr.io -u "${{ secrets.GHUSER }}" --password-stdin
