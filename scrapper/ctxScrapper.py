@@ -167,12 +167,16 @@ WebDriverWait(driver,
               10).until(EC.title_is("Download Product Software - Citrix"))
 driver.find_element_by_link_text(
     "Sign In to access restricted downloads").click()
-
 WebDriverWait(driver,
               10).until(EC.title_is("Download Product Software - Citrix"))
 
-print("Begining PARSING")
 final = []
+print("Begining PARSING")
+driver.get(
+    'https://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/product-software/'
+)
+WebDriverWait(driver,
+              10).until(EC.title_is("Download Product Software - Citrix"))
 final += parse_page(driver.page_source, "cvad")
 
 driver.get(
