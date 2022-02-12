@@ -35,19 +35,19 @@ jobs:
               exit 1
           fi
 
-          cvad=$families|jq -r '.[]|select(.family | startswith("cvad"))'
+          cvad=$(jq -r '.[]|select(.family | startswith("cvad")) | length' ctx_dls.json | head -1)
           if [ -z "$cvad" ]; then
               echo "No cvad family found in json!"
               exit 1
           fi
 
-          adc=$families|jq -r '.[]|select(.family | startswith("pvs"))'
+          pvs=$(jq -r '.[]|select(.family | startswith("pvs")) | length' ctx_dls.json | head -1)
           if [ -z "$pvs" ]; then
               echo "No pvs family found in json!"
               exit 1
           fi
 
-          pvs=$families|jq -r '.[]|select(.family | startswith("adc"))'
+          adc=$(jq -r '.[]|select(.family | startswith("adc")) | length' ctx_dls.json | head -1)
           if [ -z "$adc" ]; then
               echo "No adc family found in json!"
               exit 1
