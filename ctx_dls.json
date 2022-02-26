@@ -2353,6 +2353,19 @@
         "family": "pvs"
     },
     {
+        "edition": "Provisioning Services 7 - Citrix",
+        "product": "Citrix Provisioning Services 7",
+        "version": "7",
+        "checksum": "MD5 - c14125d321909ba9e410697f1fe8c849",
+        "date": "Jun 26, 2013",
+        "dlnumber": "7888",
+        "url": "https://secureportal.citrix.com/udl.asp?DLID=7888&URL=https://downloads.citrix.com/7888/ProvisioningServices.zip",
+        "filename": "ProvisioningServices.zip",
+        "filetype": "zip",
+        "size": "583MB",
+        "family": "pvs"
+    },
+    {
         "edition": "Citrix ADC VPX Release 13.1 - Citrix",
         "product": "Citrix ADC VPX for Citrix Hypervisor 13.1 Build 17.42",
         "version": "13.1 Build 17.42",
@@ -2840,7 +2853,7 @@
         "checksum": "SHA-256 - 8b0adaa6e7d9a1e95926f3090dbdb77b4f81a9ece2e2c329524f595b733cac31",
         "date": "Nov 15, 2021",
         "dlnumber": "20020",
-        "url": "https://secureportal.citrix.com/udl.asp?DLCID=20020&URL=https://downloads.citrix.com/20020/build-13.1-4.44_nc_64.tgz",
+        "url": "https://secureportal.citrix.com/udl.asp?DLID=20020&URL=https://downloads.citrix.com/20020/build-13.1-4.44_nc_64.tgz",
         "filename": "build-13.1-4.44_nc_64.tgz",
         "filetype": "tgz",
         "size": "861M",
