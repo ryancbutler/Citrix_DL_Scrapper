@@ -4394,6 +4394,19 @@
         "family": "adc"
     },
     {
+        "edition": "SDX Bundle (Feature Phase) 13.0-82.45 - Citrix",
+        "product": "SDX Platform Software Bundle 13.0 Build 82.42",
+        "version": "13.0 Build 82.42",
+        "checksum": "SHA-256 - c8f24946ca1bfddad5a4de164c1c61e7b78860c8f9249adca9a3538666a1bbb1",
+        "date": "Jun 11, 2021",
+        "dlnumber": "19492",
+        "url": "https://secureportal.citrix.com/udl.asp?DLID=19492&URL=https://downloads.citrix.com/19492/build-sdx-13.0-82.42.tgz",
+        "filename": "build-sdx-13.0-82.42.tgz",
+        "filetype": "tgz",
+        "size": "1.4 GB",
+        "family": "adc"
+    },
+    {
         "edition": "SDX Bundle (Maintenance Phase) 13.0-84.10/84.11 - Citrix",
         "product": "SDX Platform Software Bundle 13.0 Build 84.11",
         "version": "13.0 Build 84.11",
