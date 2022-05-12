@@ -2158,19 +2158,6 @@
         "family": "pvs"
     },
     {
-        "edition": "Citrix Provisioning 2109 - Citrix",
-        "product": "Citrix Provisioning 2109",
-        "version": "2109",
-        "checksum": "SHA-256 - 46b128f04a5f9587bcf3e31d7fd5cdec741a7d5446c8beef459320513e947c54",
-        "date": "Sep 27, 2021",
-        "dlnumber": "19804",
-        "url": "https://secureportal.citrix.com/udl.asp?DLID=19804&URL=https://downloads.citrix.com/19804/Citrix_Provisioning_2109.iso",
-        "filename": "Citrix_Provisioning_2109.iso",
-        "filetype": "iso",
-        "size": "728 MB",
-        "family": "pvs"
-    },
-    {
         "edition": "Citrix Provisioning 2106 - Citrix",
         "product": "Citrix Provisioning 2106",
         "version": "2106",
