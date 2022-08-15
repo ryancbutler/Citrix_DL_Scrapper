@@ -1,5 +1,8 @@
 # Citrix Download Scrapper
 
+**UPDATE 8/15/22**: The login method for Citrix.com has changed causing all automatic download or authentication processes to fail. If anyone wants to take this over please do. Archived for now.
+---
+
 Python script the scrapes Citrix.com for needed download info for download scripts such as <https://github.com/ryancbutler/Citrix/tree/master/XenDesktop/AutoDownload>
 
 ## How to use
